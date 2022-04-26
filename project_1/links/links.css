@@ -31,3 +31,55 @@ header li a:hover {
   font-weight: bold;
 }
 /*--------------------------------*/
+
+
+/*------------- body -------------*/
+body {
+  background-color: blue;
+}
+/*--------------------------------*/
+
+
+/*------------ #flexbox ------------*/
+#flexbox {
+  display: flex;
+  background-color: blue;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 47em;
+}
+
+#title {
+  background-color: blue;
+  width: 100%;
+  text-align: center;
+  margin-top: 4.2%;
+  height: 2em;
+  padding-top: 1.2%;
+}
+
+.link {
+  margin: auto;
+  background-color: lightyellow;
+  height: 20em;
+  width: 20em;
+  margin-top: 0;
+}
+
+.link h4 {
+  text-align: center;
+  font-size: 1.2em;
+  background-color: white;
+  margin-top: 0%;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
+}
+
+.link a:hover {
+  font-size: 1.4em;
+}
+/*--------------------------------*/
