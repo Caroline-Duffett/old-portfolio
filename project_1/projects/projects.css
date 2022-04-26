@@ -35,8 +35,9 @@ header li a:hover {
 
 /*------------ #title ------------*/
 #title {
-  margin-top: 5%;
+  margin-top: 7%;
   text-align: center;
+  font-size: 4em;
 }
 /*--------------------------------*/
 
@@ -48,17 +49,33 @@ header li a:hover {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 5%;
-  height: 43em;
+  height: 35em;
 }
 
-.projects {
+.project {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
   background-color: lightgrey;
-  height: 10%;
-  width: 10%
+  height: 12em;
+  width: 15em;
 }
 
+.project h4 {
+  text-align: center;
+  font-size: 1.2em;
+  background-color: white;
+  margin-top: 0%;
+}
 
+.project a {
+  text-decoration: none;
+  color: black;
+}
+
+.project a:hover {
+  font-size: 1.4em;
+}
 
 
 
