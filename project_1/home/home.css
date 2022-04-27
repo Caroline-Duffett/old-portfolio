@@ -18,7 +18,7 @@ header ul {
 header li {
   display: inline-block;
   margin: auto;
-  padding: 0% 5%;
+  padding: 0% 3%;
   font-size: 0.75em;
 }
 
@@ -38,6 +38,7 @@ body {
   background-color: lightpink;
 }
 
+
 #middle {
   margin-top: 30%;
 }
@@ -45,9 +46,10 @@ body {
 #middle h1 {
   text-align: center;
   color: white;
-  font-size: 6em;
+  font-size: 5em;
   margin-bottom: 0%;
 }
+
 
 #middle p {
   color: white;
