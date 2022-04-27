@@ -18,7 +18,7 @@ header ul {
 header li {
   display: inline-block;
   margin: auto;
-  padding: 0% 5%;
+  padding: 0% 3%;
   font-size: 20px;
 }
 
@@ -43,7 +43,7 @@ body {
 /*------------ #flexbox ------------*/
 #flexbox1 {
   display: flex;
-  background-color: white;
+  background-color: blue;
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 5em;
@@ -57,7 +57,7 @@ body {
   background-color: white;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 73%;
+  width: 100%;
   height: 100%;
 }
 
@@ -66,8 +66,7 @@ body {
   background-color: white;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 23%;
-  height: 100%;
+  width: 100%;
   justify-content: space-evenly;
 }
 
@@ -93,38 +92,177 @@ h3 {
   text-align: center;
 }
 
-/*
-ul {
-  list-style: none;
-}
-*/
-
 li {
   margin-left: 11%;
 }
 
-
 #interests {
   background-color: pink;
-  width: 100%;
-  margin: 7% 3% 0% 3%;
+  width: 13em;
+  height: 12.5em;
+  margin: 1% 1% 1% 1%;
   padding-left: 3%;
   padding-right: 3%;
 }
 
 #movies {
   background-color: pink;
-  width: 100%;
-  margin: 7% 3% 7% 3%;
+  width: 13em;
+  height: 12.5em;
+  margin: 1% 1% 1% 1%;
   padding-left: 3%;
   padding-right: 3%;
 }
 
 #foods {
   background-color: pink;
-  width: 100%;
-  margin: 0% 3% 7% 3%;
+  width: 13em;
+  height: 12.5em;
+  margin: 1% 1% 1% 1%;
   padding-left: 3%;
   padding-right: 3%;
 }
 /*----------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------- Media Query ------------------------------------------------- */
+@media (min-width: 950px) {
+  /*------------ Header ------------*/
+  header {
+    background-color: lightgrey;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    text-align: center;
+    padding: 0.5% 0%;
+  }
+
+  header ul {
+    list-style: none;
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  header li {
+    display: inline-block;
+    margin: auto;
+    padding: 0% 5%;
+    font-size: 20px;
+  }
+
+  header li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  header li a:hover {
+    font-weight: bold;
+  }
+  /*--------------------------------*/
+
+
+  /*------------ #flexbox ------------*/
+  body {
+    background-color: white;
+  }
+  /*--------------------------------*/
+
+
+  /*------------ #flexbox ------------*/
+  #flexbox1 {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 5em;
+    height: 43em;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  #flexbox3 {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 73%;
+    height: 100%;
+  }
+
+  #flexbox2 {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 23%;
+    height: 100%;
+    justify-content: space-evenly;
+  }
+
+  #about {
+    background-color: lightblue;
+    margin: 2% 1% 1% 1%;
+    width: 100%;
+    height: 35%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  #pictures {
+    background-color: lightblue;
+    margin: 1% 1% 1% 1%;
+    width: 100%;
+    height: 55%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  li {
+    margin-left: 11%;
+  }
+
+
+  #interests {
+    background-color: pink;
+    width: 18em;
+    margin: 7% 3% 0% 3%;
+    height: 12.5em;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  #movies {
+    background-color: pink;
+    width: 18em;
+    margin: 7% 3% 7% 3%;
+    height: 12.5em;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  #foods {
+    background-color: pink;
+    width: 18em;
+    margin: 0% 3% 7% 3%;
+    height: 12.5em;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  /*----------------------------------*/
+}
+/*--------------------------------------------------------------------------------------------------------------- */
