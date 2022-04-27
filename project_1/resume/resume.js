@@ -75,7 +75,7 @@ function responsive($minWidth) {
 
 
     //css
-    $header.css('background-color', 'lightgrey').css('width', '100%').css('top', '0px').css('left', '0px').css('position', 'fixed').css('text-align', 'center').css('padding', '0.5% 0%') //header
+    $header.css('background-color', 'lightgrey').css('width', '100%').css('top', '0px').css('left', '0px').css('position', 'absolute').css('text-align', 'center').css('padding', '0.5% 0%') //header
 
     $ul.css('list-style', 'none').css('width', '100%').css('padding-left', '0px') //ul
 
@@ -187,7 +187,7 @@ function responsive($minWidth) {
 
 
     //css
-    $header.css('background-color', 'lightgrey').css('width', '100%').css('top', '0px').css('left', '0px').css('position', 'fixed').css('text-align', 'center').css('padding', '0.5% 0%') //header
+    $header.css('background-color', 'lightgrey').css('width', '100%').css('top', '0px').css('left', '0px').css('position', 'absolute').css('text-align', 'center').css('padding', '0.5% 0%') //header
 
     $ul.css('list-style', 'none').css('width', '100%').css('padding-left', '0px') //ul
 
