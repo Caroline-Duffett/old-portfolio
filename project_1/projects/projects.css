@@ -18,8 +18,8 @@ header ul {
 header li {
   display: inline-block;
   margin: auto;
-  padding: 0% 3%;
-  font-size: 20px;
+  padding: 0% 2%;
+  font-size: 15px;
 }
 
 header li a {
@@ -35,7 +35,7 @@ header li a:hover {
 
 /*------------ #title ------------*/
 #title {
-  margin-top: 12%;
+  margin-top: 16.5%;
   text-align: center;
   font-size: 4em;
   margin-bottom: 2%;
