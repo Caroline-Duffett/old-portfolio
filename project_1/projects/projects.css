@@ -18,7 +18,7 @@ header ul {
 header li {
   display: inline-block;
   margin: auto;
-  padding: 0% 5%;
+  padding: 0% 3%;
   font-size: 20px;
 }
 
@@ -35,11 +35,19 @@ header li a:hover {
 
 /*------------ #title ------------*/
 #title {
-  margin-top: 7%;
+  margin-top: 12%;
   text-align: center;
   font-size: 4em;
+  margin-bottom: 2%;
 }
 /*--------------------------------*/
+
+
+/*------------ Body ------------*/
+body {
+ background-color: lightyellow;
+}
+/*-------------------------------*/
 
 
 /*------------ #flexbox ------------*/
@@ -49,13 +57,13 @@ header li a:hover {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  height: 35em;
 }
 
 .project {
   margin-top: 2%;
   margin-left: 2%;
   margin-right: 2%;
+  margin-bottom: 2%;
   background-color: lightgrey;
   height: 12em;
   width: 15em;
@@ -77,3 +85,103 @@ header li a:hover {
   font-size: 1.4em;
 }
 /*--------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------- Media Query ------------------------------------------------- */
+@media (min-width: 800px) {
+  /*------------ Header ------------*/
+  header {
+    background-color: lightgrey;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    text-align: center;
+    padding: 0.5% 0%;
+  }
+
+  header ul {
+    list-style: none;
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  header li {
+    display: inline-block;
+    margin: auto;
+    padding: 0% 5%;
+    font-size: 20px;
+  }
+
+  header li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  header li a:hover {
+    font-weight: bold;
+  }
+  /*--------------------------------*/
+
+
+  /*------------ #title ------------*/
+  #title {
+    margin-top: 7%;
+    text-align: center;
+    font-size: 4em;
+  }
+  /*--------------------------------*/
+
+
+  /*------------ Body ------------*/
+  body {
+   background-color: lightyellow;
+  }
+  /*-------------------------------*/
+
+
+  /*------------ #flexbox ------------*/
+  #flexbox {
+    display: flex;
+    background-color: lightyellow;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .project {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: lightgrey;
+    height: 12em;
+    width: 15em;
+  }
+
+  .project h4 {
+    text-align: center;
+    font-size: 1.2em;
+    background-color: white;
+    margin-top: 0%;
+  }
+
+  .project a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .project a:hover {
+    font-size: 1.4em;
+  }
+  /*--------------------------------*/
+}
+/*--------------------------------------------------------------------------------------------------------------- */
