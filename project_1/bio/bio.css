@@ -33,17 +33,16 @@ header li a:hover {
 /*--------------------------------*/
 
 
-/*------------ #flexbox ------------*/
+/*------------ body ------------*/
 body {
   background-color: white;
 }
-/*--------------------------------*/
-
+/*------------------------------*/
 
 /*------------ #flexbox ------------*/
 #flexbox1 {
   display: flex;
-  background-color: blue;
+  background-color: white;
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 5em;
@@ -70,20 +69,48 @@ body {
   justify-content: space-evenly;
 }
 
-#about {
+#aboutflex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
   background-color: lightblue;
   margin: 2% 1% 1% 1%;
   width: 100%;
-  padding-left: 2%;
-  padding-right: 2%;
 }
+
+h1 {
+  background-color: lightblue;
+  padding: 2%;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: 4%;
+}
+
+p {
+  background-color: lightblue;
+  padding: 2%;
+  top: 0;
+  margin-right: 5%;
+  font-size: 1.3em;
+  margin-left: 4%;
+}
+
+#profilepic {
+   width: 10em;
+   margin-top: 2%;
+   margin-bottom: 7%;
+   margin-right: 15%;
+}
+
 
 #pictures {
   background-color: lightblue;
   margin: 1% 1% 1% 1%;
   width: 100%;
-  padding-left: 2%;
-  padding-right: 2%;
+  height: 55%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 h3 {
@@ -93,33 +120,32 @@ h3 {
 li {
   margin-left: 11%;
   padding-bottom: 3%;
-  /*helped me get icons for the lists https://fontawesome.com/docs/web/style/lists. See hmtl */
-  /*helped me animate the icons https://fontawesome.com/v6/docs/web/style/animate*/
 }
+
 
 #interests {
   background-color: pink;
-  width: 13em;
+  width: 18em;
+  margin: 7% 3% 0% 3%;
   height: 12.5em;
-  margin: 1% 1% 1% 1%;
   padding-left: 3%;
   padding-right: 3%;
 }
 
 #movies {
   background-color: pink;
-  width: 13em;
+  width: 18em;
+  margin: 7% 3% 7% 3%;
   height: 12.5em;
-  margin: 1% 1% 1% 1%;
   padding-left: 3%;
   padding-right: 3%;
 }
 
 #foods {
   background-color: pink;
-  width: 13em;
+  width: 18em;
+  margin: 0% 3% 7% 3%;
   height: 12.5em;
-  margin: 1% 1% 1% 1%;
   padding-left: 3%;
   padding-right: 3%;
 }
@@ -128,15 +154,176 @@ li {
 
 
 
+/*------------------------------------------------- Media Query 2 (medium)------------------------------------------------- */
+@media (min-width: 683px) and (max-width: 949px) {
+
+  /*------------ Header ------------*/
+  header {
+    background-color: lightgrey;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    padding: 0.5% 0%;
+  }
+
+  header ul {
+    list-style: none;
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  header li {
+    display: inline-block;
+    margin: auto;
+    padding: 0% 2%;
+    font-size: 15px;
+  }
+
+  header li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  header li a:hover {
+    font-weight: bold;
+  }
+  /*--------------------------------*/
 
 
+  /*------------ body ------------*/
+  body {
+    background-color: white;
+  }
+  /*------------------------------*/
+
+  /*------------ #flexbox ------------*/
+  #flexbox1 {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 5em;
+    height: 43em;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  #flexbox3 {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+
+  #flexbox2 {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  #aboutflex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    margin: 2% 1% 1% 1%;
+    width: 100%;
+  }
+
+  #part1 {
+    width: 75%;
+  }
+
+  #part2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+  }
+
+  h1 {
+    background-color: lightblue;
+    padding: 1%;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
+  p {
+    background-color: lightblue;
+    padding: 1%;
+    top: 0;
+    margin-right: 5%;
+    font-size: 1.3em;
+  }
+
+  #profilepic {
+     width: 10em;
+     margin-top: 7%;
+     margin-bottom: 7%;
+     margin-right: 15%;
+  }
 
 
+  #pictures {
+    background-color: lightblue;
+    margin: 1% 1% 1% 1%;
+    width: 100%;
+    height: 55%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  li {
+    margin-left: 11%;
+    padding-bottom: 3%;
+  }
 
 
+  #interests {
+    background-color: pink;
+    width: 18em;
+    margin: 7% 3% 0% 3%;
+    height: 12.5em;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  #movies {
+    background-color: pink;
+    width: 18em;
+    margin: 7% 3% 7% 3%;
+    height: 12.5em;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  #foods {
+    background-color: pink;
+    width: 18em;
+    margin: 0% 3% 7% 3%;
+    height: 12.5em;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  /*----------------------------------*/
+}
+/*--------------------------------------------------------------------------------------------------------------- */
 
 
-/*------------------------------------------------- Media Query ------------------------------------------------- */
+/*------------------------------------------------- Media Query 1 (normal) ------------------------------------------------- */
 @media (min-width: 950px) {
   /*------------ Header ------------*/
   header {
@@ -211,14 +398,51 @@ li {
     justify-content: space-evenly;
   }
 
-  #about {
+  #aboutflex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
     background-color: lightblue;
     margin: 2% 1% 1% 1%;
     width: 100%;
-    height: 35%;
-    padding-left: 3%;
-    padding-right: 3%;
   }
+
+  #part1 {
+    width: 75%;
+  }
+
+  #part2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+  }
+
+  h1 {
+    background-color: lightblue;
+    padding: 1%;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 2.7em;
+  }
+
+  p {
+    background-color: lightblue;
+    padding: 1%;
+    top: 0;
+    margin-right: 5%;
+    font-size: 1.5em;
+  }
+
+  #profilepic {
+     width: 10em;
+     margin-top: 7%;
+     margin-bottom: 7%;
+     margin-right: 15%;
+  }
+
 
   #pictures {
     background-color: lightblue;
