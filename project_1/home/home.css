@@ -19,7 +19,7 @@ header li {
   display: inline-block;
   margin: auto;
   padding: 0% 5%;
-  font-size: 20px;
+  font-size: 0.75em;
 }
 
 header li a {
@@ -35,29 +35,20 @@ header li a:hover {
 
 /*------------ Body ------------*/
 body {
-  background-color: lightpink;
+  background-color: purple;
 }
-/*------------------------------*/
 
-
-/*------------ #middle Div ------------*/
 #middle {
-  margin-top: 20%;
+  margin-top: 30%;
 }
-/*-------------------------------------*/
 
-
-/*--------------- h1 ---------------*/
 #middle h1 {
   text-align: center;
   color: white;
-  font-size: 9em;
+  font-size: 6em;
   margin-bottom: 0%;
 }
-/*----------------------------------*/
 
-
-/*--------------- p ---------------*/
 #middle p {
   color: white;
   text-align: right;
@@ -66,7 +57,7 @@ body {
   margin-bottom: 0%;
   margin-left: 33%;
 }
-/*---------------------------------*/
+/*------------------------------*/
 
 
 /*------------ Footer ------------*/
@@ -79,3 +70,81 @@ footer {
   height: 8.3%
 }
 /*--------------------------------*/
+
+
+/*------------------------------------------------- Media Query ------------------------------------------------- */
+@media (min-width: 600px) {
+  /*------------ Header ------------*/
+  header {
+    background-color: lightgrey;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    text-align: center;
+    padding: 0.5% 0%;
+  }
+
+  header ul {
+    list-style: none;
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  header li {
+    display: inline-block;
+    margin: auto;
+    padding: 0% 5%;
+    font-size: 20px;
+  }
+
+  header li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  header li a:hover {
+    font-weight: bold;
+  }
+  /*--------------------------------*/
+
+
+  /*------------ Body ------------*/
+  body {
+    background-color: lightpink;
+  }
+
+  #middle {
+    margin-top: 20%;
+  }
+
+  #middle h1 {
+    text-align: center;
+    color: white;
+    font-size: 9em;
+    margin-bottom: 0%;
+  }
+
+  #middle p {
+    color: white;
+    text-align: right;
+    width: 35%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 33%;
+  }
+  /*------------------------------*/
+
+
+  /*------------ Footer ------------*/
+  footer {
+    background-color: lightgrey;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    height: 8.3%
+  }
+  /*--------------------------------*/
+}
+/*--------------------------------------------------------------------------------------------------------------- */
