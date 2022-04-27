@@ -4,7 +4,7 @@ header {
   width: 100%;
   top: 0px;
   left: 0px;
-  position: fixed;
+  position: absolute;
   text-align: center;
   padding: 0.5% 0%;
 }
@@ -104,7 +104,7 @@ body {
     width: 100%;
     top: 0px;
     left: 0px;
-    position: fixed;
+    position: absolute;
     text-align: center;
     padding: 0.5% 0%;
   }
