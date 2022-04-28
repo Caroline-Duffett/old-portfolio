@@ -1,6 +1,6 @@
 /*------------ Header ------------*/
 header {
-  background-color: lightgrey;
+  background-color: yellow;
   width: 100%;
   top: 0px;
   left: 0px;
@@ -57,36 +57,69 @@ body {
 /*------------ #flexbox ------------*/
 #flexbox {
   display: flex;
-  background-color: blue;
-  flex-wrap: wrap;
+  background-color: tan;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 85%;
+  overflow: scroll;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30em;
+  overflow-x: hidden;
 }
+/*How to hide scroll bars https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
 
-.link {
-  margin: auto;
-  background-color: lightyellow;
-  height: 20em;
-  width: 20em;
-  margin: 1%;
+/*
+overflow-x {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
+*/
 
-.link h4 {
+#title {
+  background-color: blue;
+  width: 100%;
   text-align: center;
-  font-size: 1.2em;
-  background-color: white;
-  margin-top: 0%;
+  margin-top: 8%;
+  padding-top: 1.2%;
+  font-size: 2.5em;
 }
 
-.link a {
-  text-decoration: none;
-  color: black;
+#tofix {
+  border-radius: 10px;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
-.link a:hover {
-  font-size: 1.4em;
+iframe {
+  border-radius: 10px;
+  height: 130%;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
-/*--------------------------------*/
+
+/*Ended up grabbing the embed tag stright from right clicking the youtube video. This link also helped me learn how to put the live video in https://www.w3schools.com/html/html5_video.asp*/
+
+#linkedinPic {
+  margin-top: 5%;
+  border-radius: 10px;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+#githubPic {
+  border-radius: 10px;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+/*Helped me link the images: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_image*/
+
 
 
 /*------------------------------------------------- Media Query ------------------------------------------------- */
@@ -148,6 +181,7 @@ body {
     background-color: blue;
     flex-direction: column;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 85%;
     overflow: scroll;
     margin-left: auto;
@@ -184,17 +218,29 @@ body {
 
   iframe {
     border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   /*Ended up grabbing the embed tag stright from right clicking the youtube video. This link also helped me learn how to put the live video in https://www.w3schools.com/html/html5_video.asp*/
 
-
   #linkedinPic {
     border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
   }
 
   #githubPic {
     border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   /*Helped me link the images: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_image*/
