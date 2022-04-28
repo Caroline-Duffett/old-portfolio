@@ -2,13 +2,15 @@
 
 /*------------ Header ------------*/
 header {
-  background-color: lightgrey;
+  background: linear-gradient(0.50turn, #202020, #303030, #202020);
   width: 100%;
   top: 0px;
   left: 0px;
   position: absolute;
   text-align: center;
   padding: 0.5% 0%;
+  box-shadow: 0 7px 10px rgba(0,0,0,0.4);
+  border-radius: 3px;
 }
 
 header ul {
@@ -22,11 +24,13 @@ header li {
   margin: auto;
   padding: 0% 2%;
   font-size: 15px;
+  font-family: 'Radio Canada', sans-serif;
 }
 
 header li a {
   text-decoration: none;
-  color: black;
+  color: #101010;
+  text-shadow: 2px 1px 4px #B8B8B8;
 }
 
 header li a:hover {
@@ -134,13 +138,15 @@ body {
 @media (min-width: 550px) and (max-width: 799px) {
 /*------------ Header ------------*/
 header {
-  background-color: lightgrey;
+  background: linear-gradient(0.50turn, #202020, #303030, #202020);
   width: 100%;
   top: 0px;
   left: 0px;
   position: absolute;
   text-align: center;
   padding: 0.5% 0%;
+  box-shadow: 0 7px 10px rgba(0,0,0,0.4);
+  border-radius: 3px;
 }
 
 header ul {
@@ -154,11 +160,13 @@ header li {
   margin: auto;
   padding: 0% 2%;
   font-size: 15px;
+  font-family: 'Radio Canada', sans-serif;
 }
 
 header li a {
   text-decoration: none;
-  color: black;
+  color: #101010;
+  text-shadow: 2px 1px 4px #B8B8B8;
 }
 
 header li a:hover {
@@ -265,13 +273,15 @@ body {
 @media (min-width: 800px) and (max-width: 1099px) {
   /*------------ Header ------------*/
   header {
-    background-color: lightgrey;
+    background: linear-gradient(0.50turn, #202020, #303030, #202020);
     width: 100%;
     top: 0px;
     left: 0px;
     position: absolute;
     text-align: center;
     padding: 0.5% 0%;
+    box-shadow: 0 7px 10px rgba(0,0,0,0.4);
+    border-radius: 3px;
   }
 
   header ul {
@@ -285,11 +295,13 @@ body {
     margin: auto;
     padding: 0% 5%;
     font-size: 20px;
+    font-family: 'Radio Canada', sans-serif;
   }
 
   header li a {
     text-decoration: none;
-    color: black;
+    color: #101010;
+    text-shadow: 2px 1px 4px #B8B8B8;
   }
 
   header li a:hover {
@@ -394,13 +406,15 @@ body {
 @media (min-width: 1100px) {
   /*------------ Header ------------*/
   header {
-    background-color: lightgrey;
+    background: linear-gradient(0.50turn, #202020, #303030, #202020);
     width: 100%;
     top: 0px;
     left: 0px;
     position: absolute;
     text-align: center;
     padding: 0.5% 0%;
+    box-shadow: 0 7px 10px rgba(0,0,0,0.4);
+    border-radius: 3px;
   }
 
   header ul {
@@ -414,11 +428,13 @@ body {
     margin: auto;
     padding: 0% 5%;
     font-size: 20px;
+    font-family: 'Radio Canada', sans-serif;
   }
 
   header li a {
     text-decoration: none;
-    color: black;
+    color: #101010;
+    text-shadow: 2px 1px 4px #B8B8B8;
   }
 
   header li a:hover {
