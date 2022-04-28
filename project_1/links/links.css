@@ -128,7 +128,7 @@ body {
 
   /*------------- body -------------*/
   body {
-    background-color: blue;
+    background-color: white;
   }
   /*--------------------------------*/
 
@@ -146,11 +146,24 @@ body {
   #flexbox {
     display: flex;
     background-color: blue;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
-
+    width: 85%;
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30em;
+    border-radius: 10px;
+    overflow-y: hidden;
   }
+  /*How to hide scroll bars https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
+
+  /*
+  overflow-y {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  */
 
   #title {
     background-color: blue;
@@ -160,20 +173,39 @@ body {
     padding-top: 1.2%;
   }
 
-  .link {
+  #flexbox a {
     margin: auto;
     background-color: lightyellow;
     height: 20em;
-    width: 20em;
+    width: 40em;
     margin: 1%;
-    margin-top: 0;
+    border-radius: 10px;
   }
+
+  iframe {
+    border-radius: 10px;
+  }
+
+  /*Ended up grabbing the embed tag stright from right clicking the youtube video. This link also helped me learn how to put the live video in https://www.w3schools.com/html/html5_video.asp*/
+
+
+  #linkedinPic {
+    border-radius: 10px;
+  }
+
+  #githubPic {
+    border-radius: 10px;
+  }
+
+  /*Helped me link the images: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_image*/
 
   .link h4 {
     text-align: center;
     font-size: 1.2em;
     background-color: white;
     margin-top: 0%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
 
   .link a {
@@ -186,4 +218,11 @@ body {
   }
   /*--------------------------------*/
 }
+
+/*where I got the Linkedin image: https://pixabay.com/vectors/github-logo-social-coding-brand-394322/ */
+/*Image address: https://c.pxhere.com/images/05/25/9ad3029ff9c1906b77859ee38018-1445953.jpg!d*/
+
+
+/*where I got the GitHub image: https://pxhere.com/en/photo/1445953 */
+/*Image address: https://cdn.pixabay.com/photo/2014/07/15/23/36/github-394322_1280.png*/
 /*--------------------------------------------------------------------------------------------------------------- */

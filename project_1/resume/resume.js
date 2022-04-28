@@ -115,10 +115,15 @@ function responsive($minWidth) {
     $image.css('margin-left', '22.5%').css('margin-right', '22.5%').css('width', '55%') //image
     //---------------------------------//
 
+    //Window Alert
+      //setTimeout(function() {alert('This is not my actual resume'); }, 300);
+      //This helped me figure out the widow alert: https://stackoverflow.com/questions/34336976/can-i-delay-an-alert-in-jquery
 
+    const windowAlert = () => {
+      window.alert('This is not my actual resume')
+    }
 
-
-
+    $('img').on('click', windowAlert)
 
 
     /*------------------------------------------------- Media Size ------------------------------------------------- */
@@ -226,6 +231,16 @@ function responsive($minWidth) {
     $('body').css('background-color', '#AD89D9') //body
     $image.css('margin-left', '2.5%').css('width', '95%') //image  //.css('margin-left', '5%').css('margin-right', '5%')
     //---------------------------------//
+
+    //Window Alert
+      //setTimeout(function() {alert('This is not my actual resume'); }, 300);
+      //This helped me figure out the widow alert: https://stackoverflow.com/questions/34336976/can-i-delay-an-alert-in-jquery
+
+    const windowAlert = () => {
+      window.alert('This is not my actual resume')
+    }
+
+    $('img').on('click', windowAlert)
   }
 }
 
