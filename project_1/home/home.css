@@ -1,13 +1,17 @@
 /*------------ Header ------------*/
 header {
-  background-color: lightgrey;
+  background: linear-gradient(0.50turn, #202020, #303030, #202020);
   width: 100%;
   top: 0px;
   left: 0px;
   position: fixed;
   text-align: center;
   padding: 0.5% 0%;
+  box-shadow: 0 7px 10px rgba(0,0,0,0.4);
+  border-radius: 3px;
 }
+
+/*This helped me figure out the box-shadow: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow*/
 
 header ul {
   list-style: none;
@@ -20,11 +24,13 @@ header li {
   margin: auto;
   padding: 0% 3%;
   font-size: 0.75em;
+  font-family: 'Radio Canada', sans-serif;
 }
 
 header li a {
   text-decoration: none;
-  color: black;
+  color: #101010;
+  text-shadow: 2px 1px 4px #B8B8B8;
 }
 
 header li a:hover {
@@ -35,8 +41,14 @@ header li a:hover {
 
 /*------------ Body ------------*/
 body {
-  background-color: lightpink;
+  background-image: url('images/flower.png');
+  background-color: rgba(255, 112, 201, 2);
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+/*Where I got yhe background image: https://wallpaperaccess.com/black-and-white-flowers-desktop*/
+/*This helped me figure out how to style the image: https://www.w3schools.com/html/html_images_background.asp*/
 
 
 #middle {
@@ -46,10 +58,11 @@ body {
 #middle h1 {
   text-align: center;
   color: white;
-  font-size: 5em;
+  font-size: 4.5em;
   margin-bottom: 0%;
+  font-family: 'EB Garamond', serif; arial;
+  text-shadow: 2px 2px 2px black;
 }
-
 
 #middle p {
   color: white;
@@ -58,8 +71,10 @@ body {
   margin-top: 0%;
   margin-bottom: 0%;
   margin-left: 33%;
+  text-shadow: 2px 2px 2px black;
 }
-/*------------------------------*/
+
+/*-------------------------------------------*/
 
 
 /*------------ Footer ------------*/
@@ -69,7 +84,9 @@ footer {
   bottom: 0px;
   left: 0px;
   position: fixed;
-  height: 8.3%
+  height: 8.3%;
+  box-shadow: 0 -7px 10px rgba(0,0,0,0.4);
+  border-radius: 3px;
 }
 /*--------------------------------*/
 
@@ -78,14 +95,19 @@ footer {
 @media (min-width: 600px) {
   /*------------ Header ------------*/
   header {
-    background-color: lightgrey;
+    background: linear-gradient(0.50turn, #202020, #303030, #202020);
     width: 100%;
     top: 0px;
     left: 0px;
     position: fixed;
     text-align: center;
     padding: 0.5% 0%;
+    box-shadow: 0 7px 10px rgba(0,0,0,0.4);
+    border-radius: 3px;
   }
+
+  /*This helped me figure out the gradient: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient*/
+  /*Where gray came form: https://www.cssportal.com/html-colors/shades-of-gray.php*/
 
   header ul {
     list-style: none;
@@ -98,11 +120,13 @@ footer {
     margin: auto;
     padding: 0% 5%;
     font-size: 20px;
+    font-family: 'Radio Canada', sans-serif;
   }
 
   header li a {
     text-decoration: none;
-    color: black;
+    color: #101010;
+    text-shadow: 2px 1px 4px #B8B8B8;
   }
 
   header li a:hover {
@@ -113,8 +137,14 @@ footer {
 
   /*------------ Body ------------*/
   body {
-    background-color: lightpink;
+    background-image: url('images/flower.png');
+    background-color: rgba(255, 112, 201);
+    background-size: cover;
+    background-attachment: fixed;
   }
+
+  /*Where I got yhe background image: https://wallpaperaccess.com/black-and-white-flowers-desktop*/
+  /*This helped me figure out how to style the image: https://www.w3schools.com/html/html_images_background.asp*/
 
   #middle {
     margin-top: 20%;
@@ -125,7 +155,11 @@ footer {
     color: white;
     font-size: 9em;
     margin-bottom: 0%;
+    font-family: font-family: 'EB Garamond', serif; arial;
+    text-shadow: 2px 2px 2px black;
   }
+
+  /*This helped me with the text shadow: https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow*/
 
   #middle p {
     color: white;
@@ -134,18 +168,22 @@ footer {
     margin-top: 0%;
     margin-bottom: 0%;
     margin-left: 33%;
+    text-shadow: 1px 2px 2px black;
+    font-size: 1.5em;
   }
   /*------------------------------*/
 
 
   /*------------ Footer ------------*/
   footer {
-    background-color: lightgrey;
+    background: linear-gradient(0.50turn, #202020, #303030, #202020);
     width: 100%;
     bottom: 0px;
     left: 0px;
     position: fixed;
-    height: 8.3%
+    height: 8.3%;
+    box-shadow: 0 -7px 10px rgba(0,0,0,0.4);
+    border-radius: 3px;
   }
   /*--------------------------------*/
 }
