@@ -21,7 +21,7 @@ header li {
   display: inline-block;
   margin: auto;
   padding: 0% 2%;
-  font-size: 15px;
+  font-size: 14px;
   font-family: 'Radio Canada', sans-serif;
 }
 
@@ -39,14 +39,14 @@ header li a:hover {
 
 /*------------ body ------------*/
 body {
-  background-color: white;
+  background-color: #45C0E6;
 }
 /*------------------------------*/
 
 /*------------ #flexbox ------------*/
 #flexbox1 {
   display: flex;
-  background-color: white;
+  background-color: #45C0E6;
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 5em;
@@ -57,7 +57,7 @@ body {
 
 #flexbox3 {
   display: flex;
-  background-color: white;
+  background-color: #45C0E6;
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
@@ -66,7 +66,7 @@ body {
 
 #flexbox2 {
   display: flex;
-  background-color: white;
+  background-color: #45C0E6;
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
@@ -78,26 +78,43 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: lightblue;
+  background-color: #00ADE0;
   margin: 2% 1% 1% 1%;
   width: 100%;
+  border-radius: 20px;
+}
+
+#part1 {
+  width: 75%;
+}
+
+#part2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 20%;
+  background-color: #202020;
 }
 
 h1 {
-  background-color: lightblue;
+  background-color: #00ADE0;
   padding: 2%;
   margin-bottom: auto;
   margin-top: auto;
   margin-left: 4%;
+  border-radius: 20px;
+  font-family: 'Heebo', sans-serif;
 }
 
 p {
-  background-color: lightblue;
+  background-color: #00ADE0;
   padding: 2%;
   top: 0;
   margin-right: 5%;
   font-size: 1.1em;
   margin-left: 4%;
+  font-family: 'Heebo', sans-serif;
 }
 
 #profilepic {
@@ -105,53 +122,60 @@ p {
    margin-top: 2%;
    margin-bottom: 7%;
    margin-right: 15%;
+   border-radius: 10px;
 }
 
 
 #pictures {
-  background-color: lightblue;
+  background-color: #00ADE0;
   margin: 1% 1% 1% 1%;
   width: 100%;
   height: auto;
   padding-left: 3%;
   padding-right: 3%;
+  border-radius: 20px;
 }
 
 h3 {
   text-align: center;
+  font-family: 'Heebo', sans-serif;
 }
 
 li {
   margin-left: 11%;
   padding-bottom: 3%;
+  font-family: 'Heebo', sans-serif;
 }
 
 
 #interests {
-  background-color: pink;
+  background-color: #00ADE0;
   width: 18em;
   margin: 7% 3% 0% 3%;
-  height: 12.5em;
+  height: 13.5em;
   padding-left: 3%;
   padding-right: 3%;
+  border-radius: 20px;
 }
 
 #movies {
-  background-color: pink;
+  background-color: #00ADE0;
   width: 18em;
   margin: 7% 3% 7% 3%;
-  height: 12.5em;
+  height: 13.5em;
   padding-left: 3%;
   padding-right: 3%;
+  border-radius: 20px;
 }
 
 #foods {
-  background-color: pink;
+  background-color: #00ADE0;
   width: 18em;
   margin: 0% 3% 7% 3%;
-  height: 12.5em;
+  height: 13.5em;
   padding-left: 3%;
   padding-right: 3%;
+  border-radius: 20px;
 }
 /*----------------------------------*/
 
@@ -159,6 +183,7 @@ li {
 /*------------ Carousel ------------*/
 h2 {
   font-size: 1em;
+  font-family: 'Heebo', sans-serif;
 }
 
 .head {
@@ -185,7 +210,7 @@ h2 {
 
 .images {
   width: 100%;
-  background: lightgrey;
+  background: #202020;
   padding: 5px;
   border-radius: 10px;
   box-sizing: border-box;
@@ -250,14 +275,14 @@ h2 {
 
   /*------------ body ------------*/
   body {
-    background-color: white;
+    background-color: #45C0E6;
   }
   /*------------------------------*/
 
   /*------------ #flexbox ------------*/
   #flexbox1 {
     display: flex;
-    background-color: white;
+    background-color: #45C0E6;
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 5em;
@@ -268,7 +293,7 @@ h2 {
 
   #flexbox3 {
     display: flex;
-    background-color: white;
+    background-color: #45C0E6;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
@@ -277,7 +302,7 @@ h2 {
 
   #flexbox2 {
     display: flex;
-    background-color: white;
+    background-color: #45C0E6;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
@@ -289,9 +314,10 @@ h2 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: lightblue;
+    background-color: #00ADE0;
     margin: 2% 1% 1% 1%;
     width: 100%;
+    border-radius: 20px;
   }
 
   #part1 {
@@ -304,21 +330,25 @@ h2 {
     flex-direction: row;
     justify-content: space-evenly;
     width: 20%;
+    background-color: #202020;
   }
 
   h1 {
-    background-color: lightblue;
+    background-color: #00ADE0;
     padding: 1%;
     margin-bottom: auto;
     margin-top: auto;
+    font-family: 'Heebo', sans-serif;
+    border-radius: 20px;
   }
 
   p {
-    background-color: lightblue;
+    background-color: #00ADE0;
     padding: 1%;
     top: 0;
     margin-right: 5%;
-    font-size: 1.3em;
+    font-size: 1.1em;
+    font-family: 'Heebo', sans-serif;
   }
 
   #profilepic {
@@ -326,53 +356,61 @@ h2 {
      margin-top: 7%;
      margin-bottom: 7%;
      margin-right: 15%;
+     border-radius: 10px;
   }
 
 
   #pictures {
-    background-color: lightblue;
+    background-color: #00ADE0;
     margin: 1% 1% 1% 1%;
     width: 100%;
     height: auto;
     padding-left: 3%;
     padding-right: 3%;
+    border-radius: 20px;
   }
+
 
   h3 {
     text-align: center;
+    font-family: 'Heebo', sans-serif;
   }
 
   li {
     margin-left: 11%;
     padding-bottom: 3%;
+    font-family: 'Heebo', sans-serif;
   }
 
 
   #interests {
-    background-color: pink;
+    background-color: #00ADE0;
     width: 18em;
     margin: 7% 3% 0% 3%;
-    height: 12.5em;
+    height: 13.5em;
     padding-left: 3%;
     padding-right: 3%;
+    border-radius: 20px;
   }
 
   #movies {
-    background-color: pink;
+    background-color: #00ADE0;
     width: 18em;
     margin: 7% 3% 7% 3%;
-    height: 12.5em;
+    height: 13.5em;
     padding-left: 3%;
     padding-right: 3%;
+    border-radius: 20px;
   }
 
   #foods {
-    background-color: pink;
+    background-color: #00ADE0;
     width: 18em;
     margin: 0% 3% 7% 3%;
-    height: 12.5em;
+    height: 13.5em;
     padding-left: 3%;
     padding-right: 3%;
+    border-radius: 20px;
   }
   /*----------------------------------*/
 
@@ -386,6 +424,7 @@ h2 {
 
   h2 {
     font-size: 1.7em;
+    font-family: 'Heebo', sans-serif;
   }
 
   .container {
@@ -406,7 +445,7 @@ h2 {
 
   .images {
     width: 70%;
-    background: lightgrey;
+    background: #202020;
     padding: 10px;
     border-radius: 10px;
     box-sizing: border-box;
@@ -431,13 +470,15 @@ h2 {
 @media (min-width: 950px) {
   /*------------ Header ------------*/
   header {
-    background-color: lightgrey;
+    background: linear-gradient(0.50turn, #202020, #303030, #202020);
     width: 100%;
     top: 0px;
     left: 0px;
     position: absolute;
     text-align: center;
     padding: 0.5% 0%;
+    box-shadow: 0 7px 10px rgba(0,0,0,0.4);
+    border-radius: 3px;
   }
 
   header ul {
@@ -451,11 +492,13 @@ h2 {
     margin: auto;
     padding: 0% 5%;
     font-size: 20px;
+    font-family: 'Radio Canada', sans-serif;
   }
 
   header li a {
     text-decoration: none;
-    color: black;
+    color: #101010;
+    text-shadow: 2px 1px 4px #B8B8B8;
   }
 
   header li a:hover {
@@ -466,7 +509,7 @@ h2 {
 
   /*------------ #flexbox ------------*/
   body {
-    background-color: white;
+    background-color: #45C0E6;
   }
   /*--------------------------------*/
 
@@ -474,7 +517,7 @@ h2 {
   /*------------ #flexbox ------------*/
   #flexbox1 {
     display: flex;
-    background-color: white;
+    background-color: #45C0E6;
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 5em;
@@ -485,7 +528,7 @@ h2 {
 
   #flexbox3 {
     display: flex;
-    background-color: white;
+    background-color: #45C0E6;
     flex-wrap: wrap;
     flex-direction: row;
     width: 73%;
@@ -494,7 +537,7 @@ h2 {
 
   #flexbox2 {
     display: flex;
-    background-color: white;
+    background-color: #45C0E6;
     flex-wrap: wrap;
     flex-direction: row;
     width: 23%;
@@ -507,9 +550,10 @@ h2 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: lightblue;
+    background-color: #00ADE0;
     margin: 2% 1% 1% 1%;
     width: 100%;
+    border-radius: 20px;
   }
 
   #part1 {
@@ -522,22 +566,26 @@ h2 {
     flex-direction: row;
     justify-content: space-evenly;
     width: 20%;
+    background-color: #202020;
   }
 
   h1 {
-    background-color: lightblue;
+    background-color: #00ADE0;
     padding: 1%;
     margin-bottom: auto;
     margin-top: auto;
     font-size: 2.7em;
+    font-family: 'Heebo', sans-serif;
+    border-radius: 20px;
   }
 
   p {
-    background-color: lightblue;
+    background-color: #00ADE0;
     padding: 1%;
     top: 0;
     margin-right: 5%;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-family: 'Heebo', sans-serif;
   }
 
   #profilepic {
@@ -545,53 +593,60 @@ h2 {
      margin-top: 7%;
      margin-bottom: 7%;
      margin-right: 15%;
+     border-radius: 10px;
+     background-color: #00ADE0;
   }
 
-
   #pictures {
-    background-color: lightblue;
+    background-color: #00ADE0;
     margin: 1% 1% 4% 1%;
     width: 100%;
     height: auto;
     padding-left: 3%;
     padding-right: 3%;
+    border-radius: 20px;
   }
 
   h3 {
     text-align: center;
+    font-family: 'Heebo', sans-serif;
   }
 
   li {
     margin-left: 11%;
     padding-bottom: 3%;
+    font-family: 'Heebo', sans-serif;
   }
 
 
   #interests {
-    background-color: pink;
+    background-color: #00ADE0;
     width: 18em;
     margin: 7% 3% 0% 3%;
-    height: 12.5em;
+    height: 13.5em;
     padding-left: 3%;
     padding-right: 3%;
+    border-radius: 20px;
   }
 
   #movies {
-    background-color: pink;
+    background-color: #00ADE0;
     width: 18em;
     margin: 7% 3% 7% 3%;
-    height: 12.5em;
+    height: 13.5em;
     padding-left: 3%;
     padding-right: 3%;
+    border-radius: 20px;
   }
 
   #foods {
-    background-color: pink;
+    background-color: #00ADE0;
     width: 18em;
     margin: 0% 3% 7% 3%;
-    height: 12.5em;
+    height: 13.5em;
     padding-left: 3%;
     padding-right: 3%;
+    border-radius: 20px;
   }
   /*----------------------------------*/
 
@@ -605,6 +660,7 @@ h2 {
 
   h2 {
     font-size: 1.7em;
+    font-family: 'Heebo', sans-serif;
   }
 
   .container {
@@ -625,7 +681,7 @@ h2 {
 
   .images {
   	width: 70%;
-  	background: lightgrey;
+  	background: #202020;
   	padding: 10px;
   	border-radius: 10px;
   	box-sizing: border-box;
