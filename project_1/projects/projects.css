@@ -1,3 +1,5 @@
+/*------------------------------------------------- Media Query 4 (Zone 4) ------------------------------------------------- */
+
 /*------------ Header ------------*/
 header {
   background-color: lightgrey;
@@ -35,9 +37,141 @@ header li a:hover {
 
 /*------------ #title ------------*/
 #title {
-  margin-top: 16.5%;
+  margin-top: 17%;
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
+  margin-bottom: 2%;
+}
+/*--------------------------------*/
+
+
+
+/*------------ Body ------------*/
+body {
+ background-color: lightyellow;
+}
+/*-------------------------------*/
+
+
+/*------------ #flexbox ------------*/
+#flexbox {
+  display: flex;
+  background-color: lightyellow;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.project {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  background-color: lightgrey;
+  height: 12em;
+  width: 15em;
+}
+
+.project h4 {
+  text-align: center;
+  font-size: 1.2em;
+  background-color: white;
+  margin-top: 0%;
+}
+
+.project a {
+  text-decoration: none;
+  color: black;
+}
+
+.project a:hover {
+  font-size: 1.4em;
+}
+/*--------------------------------*/
+
+
+/*------------ Modal ------------*/
+  #modal {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    margin-bottom: auto;
+    margin-left: 12%;
+    margin-top: 175px;
+    z-index: 1;
+    border-radius: 2px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+    padding: 7%;
+    line-height: 120%;
+  }
+
+  h2 {
+    margin-bottom: 20%;
+    font-size: 90%;
+  }
+
+  #closer {
+    text-align: right;
+  }
+
+  #close {
+    text-decoration: none;
+    color: black;
+    font-size: 75%;
+  }
+
+  #close:hover {
+    text-decoration: none;
+    color: blue;
+  }
+/*-------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------------------- */
+
+
+
+/*------------------------------------------------- Media Query 3 (Zone 3) ------------------------------------------------- */
+@media (min-width: 550px) and (max-width: 799px) {
+/*------------ Header ------------*/
+header {
+  background-color: lightgrey;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  padding: 0.5% 0%;
+}
+
+header ul {
+  list-style: none;
+  width: 100%;
+  padding-left: 0px;
+}
+
+header li {
+  display: inline-block;
+  margin: auto;
+  padding: 0% 2%;
+  font-size: 15px;
+}
+
+header li a {
+  text-decoration: none;
+  color: black;
+}
+
+header li a:hover {
+  font-weight: bold;
+}
+/*--------------------------------*/
+
+
+/*------------ #title ------------*/
+#title {
+  margin-top: 14%;
+  text-align: center;
+  font-size: 3em;
   margin-bottom: 2%;
 }
 /*--------------------------------*/
@@ -87,17 +221,177 @@ body {
 /*--------------------------------*/
 
 
+/*------------ Modal ------------*/
+  #modal {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    margin-bottom: auto;
+    margin-left: 20%;
+    z-index: 1;
+    border-radius: 2px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+    padding: 7%;
+    line-height: 120%;
+    margin-top: 175px;
+  }
+
+  h2 {
+    margin-bottom: 20%;
+    font-size: 120%;
+  }
+
+  #closer {
+    text-align: right;
+  }
+
+  #close {
+    text-decoration: none;
+    color: black;
+
+  }
+
+  #close:hover {
+    text-decoration: none;
+    color: blue;
+  }
+/*-------------------------------*/
+}
+/*--------------------------------------------------------------------------------------------------------------- */
+
+
+
+/*------------------------------------------------- Media Query 2 (zone 2) ------------------------------------------------- */
+@media (min-width: 800px) and (max-width: 1099px) {
+  /*------------ Header ------------*/
+  header {
+    background-color: lightgrey;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    padding: 0.5% 0%;
+  }
+
+  header ul {
+    list-style: none;
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  header li {
+    display: inline-block;
+    margin: auto;
+    padding: 0% 5%;
+    font-size: 20px;
+  }
+
+  header li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  header li a:hover {
+    font-weight: bold;
+  }
+  /*--------------------------------*/
+
+
+  /*------------ #title ------------*/
+  #title {
+    margin-top: 9%;
+    text-align: center;
+    font-size: 3.5em;
+  }
+  /*--------------------------------*/
+
+
+  /*------------ Body ------------*/
+  body {
+   background-color: lightyellow;
+  }
+  /*-------------------------------*/
+
+
+  /*------------ #flexbox ------------*/
+  #flexbox {
+    display: flex;
+    background-color: lightyellow;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .project {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: lightgrey;
+    height: 12em;
+    width: 15em;
+  }
+
+  .project h4 {
+    text-align: center;
+    font-size: 1.2em;
+    background-color: white;
+    margin-top: 0%;
+  }
+
+  .project a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .project a:hover {
+    font-size: 1.4em;
+  }
+  /*--------------------------------*/
+
+
+  /*------------ Modal ------------*/
+    #modal {
+      background-color: white;
+      position: fixed;
+      top: 0;
+      margin-top: 175px;
+      margin-left: 18%;
+      z-index: 1;
+      border-radius: 2px;
+      box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+      padding: 10%;
+      line-height: 120%;
+    }
+
+    h2 {
+      margin-bottom: 20%;
+      font-size: 150%;
+    }
+
+    #closer {
+      text-align: right;
+    }
+
+    #close {
+      text-decoration: none;
+      color: black;
+
+    }
+
+    #close:hover {
+      text-decoration: none;
+      color: blue;
+    }
+  /*-------------------------------*/
+}
+/*--------------------------------------------------------------------------------------------------------------- */
 
 
 
 
-
-
-
-
-
-/*------------------------------------------------- Media Query ------------------------------------------------- */
-@media (min-width: 800px) {
+/*------------------------------------------------- Media Query 1 (normal) ------------------------------------------------- */
+@media (min-width: 1100px) {
   /*------------ Header ------------*/
   header {
     background-color: lightgrey;
@@ -190,20 +484,28 @@ body {
       background-color: white;
       position: fixed;
       top: 0;
-
-      margin-left: 30%;
-	    z-index: 1;
+      margin-top: 175px;
+      margin-left: 26.5%;
+      z-index: 1;
       border-radius: 2px;
-      margin-left: 25%;
       box-shadow: 0 5px 5px rgba(0,0,0,0.3);
       padding: 10%;
       line-height: 120%;
-      margin-top: 175px;
+    }
+
+    h2 {
+      margin-bottom: 20%;
+      font-size: 150%;
+    }
+
+    #closer {
+      text-align: right;
     }
 
     #close {
       text-decoration: none;
       color: black;
+
     }
 
     #close:hover {
