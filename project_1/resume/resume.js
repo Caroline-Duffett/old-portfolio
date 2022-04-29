@@ -75,13 +75,13 @@ function responsive($minWidth) {
 
 
     //css
-    $header.css('background-color', 'lightgrey').css('width', '100%').css('top', '0px').css('left', '0px').css('position', 'absolute').css('text-align', 'center').css('padding', '0.5% 0%') //header
+    $header.css('background', 'linear-gradient(0.50turn, #202020, #303030, #202020)').css('width', '100%').css('top', '0px').css('left', '0px').css('position', 'absolute').css('text-align', 'center').css('padding', '0.5% 0%').css('box-shadow', '0 7px 10px rgba(0,0,0,0.4)').css('border-radius', '3px') //header
 
     $ul.css('list-style', 'none').css('width', '100%').css('padding-left', '0px') //ul
 
-    $('.li').css('display', 'inline-block').css('margin', 'auto').css('padding', '0% 5%').css('font-size', '20px') //li
+    $('.li').css('display', 'inline-block').css('margin', 'auto').css('padding', '0% 5%').css('font-size', '20px').css('font-family', "'Radio Canada', sans-serif") //li
 
-    $('.a').css('text-decoration', 'none').css('color', 'black') //a
+    $('.a').css('text-decoration', 'none').css('color', '#101010').css('text-shadow', '2px 1px 4px #B8B8B8') //a
 
     $('#1').hover($hoverFunction1, $nohoverFunction1)
     $('#2').hover($hoverFunction2, $nohoverFunction2)
@@ -192,13 +192,13 @@ function responsive($minWidth) {
 
 
     //css
-    $header.css('background-color', 'lightgrey').css('width', '100%').css('top', '0px').css('left', '0px').css('position', 'absolute').css('text-align', 'center').css('padding', '0.5% 0%') //header
+    $header.css('background', 'linear-gradient(0.50turn, #202020, #303030, #202020)').css('width', '100%').css('top', '0px').css('left', '0px').css('position', 'absolute').css('text-align', 'center').css('padding', '0.5% 0%').css('box-shadow', '0 7px 10px rgba(0,0,0,0.4)').css('border-radius', '3px') //header
 
     $ul.css('list-style', 'none').css('width', '100%').css('padding-left', '0px') //ul
 
-    $('.li').css('display', 'inline-block').css('margin', 'auto').css('padding', '0% 3%').css('font-size', '15px') //li
+    $('.li').css('display', 'inline-block').css('margin', 'auto').css('padding', '0% 3%').css('font-size', '15px').css('font-family', "'Radio Canada', sans-serif") //li
 
-    $('.a').css('text-decoration', 'none').css('color', 'black') //a
+    $('.a').css('text-decoration', 'none').css('color', '#101010').css('text-shadow', '2px 1px 4px #B8B8B8') //a
 
     $('#1').hover($hoverFunction1, $nohoverFunction1)
     $('#2').hover($hoverFunction2, $nohoverFunction2)
