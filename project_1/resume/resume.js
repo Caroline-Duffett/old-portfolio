@@ -96,7 +96,7 @@ function responsive($minWidth) {
     //------------ Body ---------------//
     //create
     const $resumeDiv = $('<div>').attr('id', 'mainbox_normal') //makes mainbox div
-    const $reasumeheader = $("<h1>").attr('id', 'title').text('Resume') //makes resume h1
+    const $reasumeheader = $("<button>").attr('id', 'title').text('View Resume') //makes resume h1
     const $image = $("<img>").attr('src', 'https://pilbox.themuse.com/image.png?url=https%3A%2F%2Fassets.themuse.com%2Fuploaded%2Fattachments%2F39916%2Fdf5083e7-325e-4174-a62e-611bbda7f9ff.png%3Fv%3D8ffe118e4639f69c5a85c9117d92640a81ffaa9942d639598f9f8e03030d4341&prog=1&w=780').attr('id', 'image') //makes image
     //image from: https://www.themuse.com/advice/top-google-docs-resume-templates-how-to-use-them
     //image link: https://pilbox.themuse.com/image.png?url=https%3A%2F%2Fassets.themuse.com%2Fuploaded%2Fattachments%2F39916%2Fdf5083e7-325e-4174-a62e-611bbda7f9ff.png%3Fv%3D8ffe118e4639f69c5a85c9117d92640a81ffaa9942d639598f9f8e03030d4341&prog=1&w=780
@@ -110,10 +110,23 @@ function responsive($minWidth) {
 
     //css
     $resumeDiv.css('margin-top', '5%') //makes div start below header
-    $reasumeheader.css('text-align', 'left').css('font-size', '3em').css('background-color', '#AD89D9').css('margin-left', '2%').css('margin-top', '6.5%') //h1
-    $('body').css('background-color', '#AD89D9') //body
-    $image.css('margin-left', '22.5%').css('margin-right', '22.5%').css('width', '55%') //image
+
+    $reasumeheader.css('text-align', 'center').css('font-size', '3em').css('background-color', 'white').css('color', 'blue').css('border-radius', '5px').css('margin-left', '40%').css('margin-top', '3%').css('margin-bottom', '1.5%').css('font-family', "'EB Garamond', serif").css('padding', '1%') //h1
+
+    $('body').css('background-color', '#460F75').css('height', 'auto') //.ccs('background-repeat', 'no-repeat'); //body
+
+    $image.css('margin-left', '22.5%').css('margin-right', '22.5%').css('width', '55%').css('display', 'none') //image
     //---------------------------------//
+
+    //image animation
+    const animate = () => {
+      $image.slideDown('slow')
+
+    }
+
+    $($reasumeheader).on('click', animate)
+
+
 
     //Window Alert
       //setTimeout(function() {alert('This is not my actual resume'); }, 300);
@@ -213,7 +226,7 @@ function responsive($minWidth) {
     //------------ Body ---------------//
     //create
     const $resumeDiv = $('<div>').attr('id', 'mainbox_media') //makes mainbox div
-    const $reasumeheader = $("<h1>").attr('id', 'title').text('Resume') //makes resume h1
+    const $reasumeheader = $("<button>").attr('id', 'title').text('View Resume') //makes resume h1
     const $image = $("<img>").attr('src', 'https://pilbox.themuse.com/image.png?url=https%3A%2F%2Fassets.themuse.com%2Fuploaded%2Fattachments%2F39916%2Fdf5083e7-325e-4174-a62e-611bbda7f9ff.png%3Fv%3D8ffe118e4639f69c5a85c9117d92640a81ffaa9942d639598f9f8e03030d4341&prog=1&w=780').attr('id', 'image') //makes image
     //image from: https://www.themuse.com/advice/top-google-docs-resume-templates-how-to-use-them
     //image link: https://pilbox.themuse.com/image.png?url=https%3A%2F%2Fassets.themuse.com%2Fuploaded%2Fattachments%2F39916%2Fdf5083e7-325e-4174-a62e-611bbda7f9ff.png%3Fv%3D8ffe118e4639f69c5a85c9117d92640a81ffaa9942d639598f9f8e03030d4341&prog=1&w=780
@@ -227,10 +240,24 @@ function responsive($minWidth) {
 
     //css
     $resumeDiv.css('margin-top', '20%') //makes div start below header
-    $reasumeheader.css('text-align', 'left').css('font-size', '2.5em').css('background-color', '#AD89D9').css('margin-left', '2%').css('margin-top', '6.5%').css('margin-bottom', '2%') //h1
-    $('body').css('background-color', '#AD89D9') //body
-    $image.css('margin-left', '2.5%').css('width', '95%') //image  //.css('margin-left', '5%').css('margin-right', '5%')
+
+    $reasumeheader.css('text-align', 'left').css('font-size', '2em').css('background-color', 'white').css('color', 'blue').css('border-radius', '5px').css('margin-left', '40%').css('margin-top', '0%').css('margin-bottom', '2%').css('font-family', "'EB Garamond', serif").css('padding', '1%') //h1
+
+    $('body').css('background-color', '#460F75').css('height', 'auto') //body
+
+    $image.css('margin-left', '2.5%').css('width', '95%').css('display', 'none') //image
+    //.css('margin-left', '5%').css('margin-right', '5%')
     //---------------------------------//
+
+
+    //image animation
+    const animate = () => {
+      $image.slideDown('slow')
+    }
+
+    $($reasumeheader).on('click', animate)
+
+
 
     //Window Alert
       //setTimeout(function() {alert('This is not my actual resume'); }, 300);
