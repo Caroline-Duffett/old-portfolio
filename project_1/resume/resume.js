@@ -209,7 +209,7 @@ function responsive($minWidth) {
 
     $ul.css('list-style', 'none').css('width', '100%').css('padding-left', '0px') //ul
 
-    $('.li').css('display', 'inline-block').css('margin', 'auto').css('padding', '0% 3%').css('font-size', '15px').css('font-family', "'Radio Canada', sans-serif") //li
+    $('.li').css('display', 'inline-block').css('margin', 'auto').css('padding', '0% 3%').css('font-size', '14px').css('font-family', "'Radio Canada', sans-serif") //li
 
     $('.a').css('text-decoration', 'none').css('color', '#101010').css('text-shadow', '2px 1px 4px #B8B8B8') //a
 
@@ -241,7 +241,7 @@ function responsive($minWidth) {
     //css
     $resumeDiv.css('margin-top', '20%') //makes div start below header
 
-    $reasumeheader.css('text-align', 'left').css('font-size', '2em').css('background-color', 'white').css('color', 'blue').css('border-radius', '5px').css('margin-left', '40%').css('margin-top', '0%').css('margin-bottom', '2%').css('font-family', "'EB Garamond', serif").css('padding', '1%') //h1
+    $reasumeheader.css('text-align', 'left').css('font-size', '1.7em').css('background-color', 'white').css('color', 'blue').css('border-radius', '5px').css('margin-left', '30%').css('margin-top', '5%').css('margin-bottom', '2%').css('font-family', "'EB Garamond', serif").css('padding', '1%') //h1
 
     $('body').css('background-color', '#460F75').css('height', 'auto') //body
 

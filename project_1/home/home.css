@@ -42,7 +42,6 @@ header li a:hover {
 /*------------ Body ------------*/
 body {
   background-image: url('images/flower.png');
-  background-color: rgba(255, 112, 201, 2);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -79,7 +78,7 @@ body {
 
 /*------------ Footer ------------*/
 footer {
-  background-color: lightgrey;
+  background: linear-gradient(0.50turn, #202020, #303030, #202020);
   width: 100%;
   bottom: 0px;
   left: 0px;
@@ -138,7 +137,6 @@ footer {
   /*------------ Body ------------*/
   body {
     background-image: url('images/flower.png');
-    background-color: rgba(255, 112, 201);
     background-size: cover;
     background-attachment: fixed;
   }
