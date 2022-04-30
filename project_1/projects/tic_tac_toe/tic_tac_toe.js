@@ -1,33 +1,25 @@
 //console.log('hi'); //works
 
+//-------------WAY ONE -------------------------//
+
 //Function to get player 1 name input and display player 1 name
 const player1Name = () => {
   let playerOne = document.getElementById('name1').value;
   document.getElementById('p1').innerHTML = `Player One: ${playerOne}`
 }
 
-//Function changes text from play 1 to player 2
-const removePlayer1 = () => {
-  const remove1 = document.getElementById('text').innerHTML = `Player Two: `
+//Function to delete player one input once name entered
+const removeP1Input = () => {
+  let parent1 = document.getElementById('p1inputDiv')
+  parent1.remove();
 }
 
-//Function changes id from name1 to name 2
-const idChange = () => {
-  const change = document.getElementById('name1').id = 'name2';
-}
-
-//Function changes id from p1Btn to p2Btn
-const btnChange = () => {
-  const changeBtn = document.getElementById('p1Btn').id = 'p2Btn';
-}
-
-//calls all player one functions on click
-const p1Functions = () => {
+//When button is clicked will display player 1 name and delete input
+const btn1Functions = () => {
   player1Name();
-  removePlayer1();
-  idChange();
-  btnChange();
+  removeP1Input();
 }
+
 
 //Function to get player 2 name input and display player 2 name
 const player2Name = () => {
@@ -35,6 +27,17 @@ const player2Name = () => {
   document.getElementById('p2').innerHTML = `Player Two: ${playerTwo}`
 }
 
-const p2Functions = () => {
-  player2Name();
+//Function to delete player two input once name entered
+const removeP2Input = () => {
+  let parent2 = document.getElementById('p2inputDiv')
+  parent2.remove();
 }
+
+//When button is clicked will display player 2 name
+const btn2Functions = () => {
+  player2Name();
+  removeP2Input();
+}
+
+
+//----------------------------------------------//

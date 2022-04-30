@@ -10,12 +10,22 @@
   </head>
   <body>
     <h1>Welcome to Tic Tac Toe!</h1>
-    <div id='inputs'>
-      <h4 id='text'>Player 1: </h4>
-      <input type='Name' id="name1" placeholder='Name'>
-      <button onclick='p1Functions()' id='p1Btn'>Enter</button>
-    </div>
     <h5 id='p1'></h5>
     <h5 id='p2'></h5>
+    <div id='inputs'>
+      <div id=p1inputDiv>
+        <h4 id='text1'>Player 1: </h4>
+        <input type='Name' id="name1" placeholder='Name'>
+        <button onclick='btn1Functions()' id='p1Btn'>Enter</button>
+      </div>
+      <div id=p2inputDiv>
+        <h4 id='text2'>Player 2: </h4>
+        <input type='Name' id="name2" placeholder='Name'>
+        <button onclick='btn2Functions()' id='p2Btn'>Enter</button>
+      </div>
+    </div>
+    <div id='start'>
+      <button>Start</button>
+    </div>
   </body>
 </html>
