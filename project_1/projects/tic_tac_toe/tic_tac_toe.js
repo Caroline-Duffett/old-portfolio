@@ -257,36 +257,3 @@ const startGame = () => {
   gameBoard();
 }
 //------------------------------------------------------------------
-
-
-//---------------------- Wins Game ---------------------------------
-// square1 = document.getElementById('t1');
-// square2 = document.getElementById('t2');
-// square3 = document.getElementById('t3');
-// square4 = document.getElementById('t4');
-// square5 = document.getElementById('t5');
-// square6 = document.getElementById('t6');
-// square7 = document.getElementById('t7');
-// square8 = document.getElementById('t8');
-// square9 = document.getElementById('t9');
-//
-// // if (square1.innerHTML === '❌' && square2.innerHTML === '❌' && square3.innerHTML === '❌') {
-// //   console.log('Player One Wins');
-// // } else {
-// //   console.log('No winner');
-// // }
-//
-// const text =  document.getElementById('t1');
-// const s1Text = text.innerHTML;
-// console.log(s1Text);
-//
-//
-// // console.log(square1);
-// // console.log(square2);
-// // console.log(square3);
-// // console.log(square4);
-// // console.log(square5);
-// // console.log(square6);
-// // console.log(square7);
-// // console.log(square8);
-// // console.log(square9);
