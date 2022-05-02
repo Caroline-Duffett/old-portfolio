@@ -4,7 +4,7 @@
 //Function to get player 1 name input and display player 1 name
 const player1Name = () => {
   let playerOne = document.getElementById('name1').value;
-  document.getElementById('p1').innerHTML = `Player One: ${playerOne}`
+  document.getElementById('p1').innerHTML = `Player One ❌: ${playerOne}`
 }
 
 //Function to delete player one input once name entered
@@ -29,7 +29,7 @@ const btn1Functions = () => {
 //Function to get player 2 name input and display player 2 name
 const player2Name = () => {
   let playerTwo = document.getElementById('name2').value;
-  document.getElementById('p2').innerHTML = `Player Two: ${playerTwo}`
+  document.getElementById('p2').innerHTML = `Player Two 🔵: ${playerTwo}`
 }
 
 //Function to delete player two input once name entered
@@ -52,17 +52,235 @@ const btn2Functions = () => {
 //----------------------------------------------//
 
 
-//Function that starts the game
-const startGame = () => {
-  console.log('working game');
+//--------------------- Makes Game ---------------------------------
+const selection = () => {
+  const selecting1 = () => {
+    btn1 = document.getElementById('1');
+    btn1.remove()
+    i++
+  }
+
+  const selecting2 = () => {
+    btn2 = document.getElementById('2');
+    btn2.remove()
+    i++
+  }
+
+  const selecting3 = () => {
+    btn3 = document.getElementById('3');
+    btn3.remove()
+    i++
+  }
+
+  const selecting4 = () => {
+    btn4 = document.getElementById('4');
+    btn4.remove()
+    i++
+  }
+
+  const selecting5 = () => {
+    btn5 = document.getElementById('5');
+    btn5.remove()
+    i++
+  }
+
+  const selecting6 = () => {
+    btn6 = document.getElementById('6');
+    btn6.remove()
+    i++
+  }
+
+  const selecting7 = () => {
+    btn7 = document.getElementById('7');
+    btn7.remove()
+    i++
+  }
+
+  const selecting8 = () => {
+    btn8 = document.getElementById('8');
+    btn8.remove()
+    i++
+  }
+
+  const selecting9 = () => {
+    btn9 = document.getElementById('9');
+    btn9.remove()
+    i++
+  }
+}
+
+const statement1 = () => {
+  const text = document.getElementById('statement');
+  text.innerHTML = `player one's turn`
+}
+
+// const p1selecting = () => {
+//   const selecting1 = () => {
+//     btn1 = document.getElementById('1');
+//     btn1.remove()
+//     i++
+//   }
+//
+//   const selecting2 = () => {
+//     btn2 = document.getElementById('2');
+//     btn2.remove()
+//     i++
+//   }
+//
+//   const selecting3 = () => {
+//     btn3 = document.getElementById('3');
+//     btn3.remove()
+//     i++
+//   }
+//
+//   const selecting4 = () => {
+//     btn4 = document.getElementById('4');
+//     btn4.remove()
+//     i++
+//   }
+//
+//   const selecting5 = () => {
+//     btn5 = document.getElementById('5');
+//     btn5.remove()
+//     i++
+//   }
+//
+//   const selecting6 = () => {
+//     btn6 = document.getElementById('6');
+//     btn6.remove()
+//     i++
+//   }
+//
+//   const selecting7 = () => {
+//     btn7 = document.getElementById('7');
+//     btn7.remove()
+//     i++
+//   }
+//
+//   const selecting8 = () => {
+//     btn8 = document.getElementById('8');
+//     btn8.remove()
+//     i++
+//   }
+//
+//   const selecting9 = () => {
+//     btn9 = document.getElementById('9');
+//     btn9.remove()
+//     i++
+//   }
+// }
+//
+// const p1Turn = () => {
+//   statement1();
+//   p1selecting();
+// }
+
+
+//----
+
+const statement2 = () => {
+  const text = document.getElementById('statement');
+  text.innerHTML = `player two's turn`
+}
+
+// const p2selecting = () => {
+//   const selecting1 = () => {
+//     btn1 = document.getElementById('1');
+//     btn1.remove()
+//     i++
+//   }
+//
+//   const selecting2 = () => {
+//     btn2 = document.getElementById('2');
+//     btn2.remove()
+//     i++
+//   }
+//
+//   const selecting3 = () => {
+//     btn3 = document.getElementById('3');
+//     btn3.remove()
+//     i++
+//   }
+//
+//   const selecting4 = () => {
+//     btn4 = document.getElementById('4');
+//     btn4.remove()
+//     i++
+//   }
+//
+//   const selecting5 = () => {
+//     btn5 = document.getElementById('5');
+//     btn5.remove()
+//     i++
+//   }
+//
+//   const selecting6 = () => {
+//     btn6 = document.getElementById('6');
+//     btn6.remove()
+//     i++
+//   }
+//
+//   const selecting7 = () => {
+//     btn7 = document.getElementById('7');
+//     btn7.remove()
+//     i++
+//   }
+//
+//   const selecting8 = () => {
+//     btn8 = document.getElementById('8');
+//     btn8.remove()
+//     i++
+//   }
+//
+//   const selecting9 = () => {
+//     btn9 = document.getElementById('9');
+//     btn9.remove()
+//     i++
+//   }
+// }
+
+
+
+const p2Turn = () => {
+  statement2();
+  p2selecting();
 }
 
 
+//Runs the game
+const game = () => {
+  for (let i = 0; 0 < 10; i++) {
+    if (i%2 === 0) {
+      p1Turn();
+      console.log('1');
+    } else {
+      p2Turn();
+      console.log('2');
+    }
+    console.log(i);
+  }
+}
 
 
+//------------------------------------------------------------------
 
+//removes start button
+const removestart = () => {
+  let startbtn = document.getElementById('start')
+  startbtn.remove();
+}
 
+//makes game appear
+const gameBoard = () => {
+  document.getElementById('gameDiv').style.visibility = 'visible';
+}
 
+//Function that starts the game
+const startGame = () => {
+  removestart();
+  gameBoard();
+  game();
+}
 
 
 
