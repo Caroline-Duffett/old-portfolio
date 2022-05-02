@@ -34,3 +34,11 @@ button {
   margin-left: 0.25em;
   margin-top: 2.5em;
 }
+/*-----------------------------------------*/
+#start {
+  visibility: hidden;
+}
+
+#p2inputDiv {
+  visibility: hidden;
+}
