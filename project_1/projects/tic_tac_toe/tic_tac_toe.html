@@ -9,9 +9,11 @@
     <script type="text/javascript" src="tic_tac_toe.js"></script>
   </head>
   <body>
-    <h1>Welcome to Tic Tac Toe!</h1>
-    <h5 id='p1'></h5>
-    <h5 id='p2'></h5>
+    <h1>Tic Tac Toe!</h1>
+    <div id='named'>
+      <h5 id='p1'></h5>
+      <h5 id='p2'></h5>
+    </div>
     <div id='inputs'>
       <div id=p1inputDiv>
         <h4 id='text1'>Player One ❌: </h4>
@@ -25,43 +27,43 @@
       </div>
     </div>
     <div id='start'>
-      <button onclick='startGame()'>Start</button>
+      <button onclick='startGame()' id="startBtn">Start</button>
     </div>
     <div id='gameDiv'>
       <div id='turnDiv'>
-        <h5 id='statement'>player one's turn</h5>
+        <h5 id='statement'>Player one's turn</h5>
       </div>
       <table>
         <tr>
-          <td id='t1'>""
+          <td id='t1'>
             <button onclick='selecting1()' class=board id='1'></button>
           </td>
-          <td id='t2'>""
+          <td id='t2'>
             <button onclick='selecting2()' class=board id='2'></button>
           </td>
-          <td id='t3'>""
+          <td id='t3'>
             <button onclick='selecting3()' class=board id='3'></button>
           </td>
         </tr>
         <tr>
-          <td id='t4'>""
+          <td id='t4'>
             <button onclick='selecting4()' class=board id='4'></button>
           </td>
-          <td id='t5'>""
+          <td id='t5'>
             <button onclick='selecting5()' class=board id='5'></button>
           </td>
-          <td id='t6'>""
+          <td id='t6'>
             <button onclick='selecting6()' class=board id='6'></button>
           </td>
         </tr>
         <tr>
-          <td id='t7'>""
+          <td id='t7'>
             <button onclick='selecting7()' class=board id='7'></button>
           </td>
-          <td id='t8'>""
+          <td id='t8'>
             <button onclick='selecting8()' class=board id='8'></button>
           </td>
-          <td id='t9'>""
+          <td id='t9'>
             <button onclick='selecting9()' class=board id='9'></button>
           </td>
         </tr>

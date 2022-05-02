@@ -60,14 +60,14 @@ const selecting1 = () => {
   btn1.remove()
   if (turn = i%2 === 0) {
     const text = document.getElementById('statement');
-    text.innerHTML = `player two's turn`
+    text.innerHTML = `Player two's turn`
 
     square1 = document.getElementById('t1');
     square1.innerHTML = `❌`
     i++
   } else {
     const text = document.getElementById('statement');
-    text.innerHTML = `player one's turn`
+    text.innerHTML = `Player one's turn`
 
     square1 = document.getElementById('t1');
     square1.innerHTML = `🔵`
@@ -81,14 +81,14 @@ const selecting2 = () => {
   btn2.remove()
   if (turn = i%2 === 0) {
     const text = document.getElementById('statement');
-    text.innerHTML = `player two's turn`
+    text.innerHTML = `Player two's turn`
 
     square2 = document.getElementById('t2');
     square2.innerHTML = `❌`
     i++
   } else {
     const text = document.getElementById('statement');
-    text.innerHTML = `player one's turn`
+    text.innerHTML = `Player one's turn`
 
     square2 = document.getElementById('t2');
     square2.innerHTML = `🔵`
@@ -101,14 +101,14 @@ const selecting3 = () => {
   btn3.remove()
   if (turn = i%2 === 0) {
     const text = document.getElementById('statement');
-    text.innerHTML = `player two's turn`
+    text.innerHTML = `Player two's turn`
 
     square3 = document.getElementById('t3');
     square3.innerHTML = `❌`
     i++
   } else {
     const text = document.getElementById('statement');
-    text.innerHTML = `player one's turn`
+    text.innerHTML = `Player one's turn`
 
     square3 = document.getElementById('t3');
     square3.innerHTML = `🔵`
@@ -121,14 +121,14 @@ const selecting4 = () => {
   btn4.remove()
   if (turn = i%2 === 0) {
     const text = document.getElementById('statement');
-    text.innerHTML = `player two's turn`
+    text.innerHTML = `Player two's turn`
 
     square4 = document.getElementById('t4');
     square4.innerHTML = `❌`
     i++
   } else {
     const text = document.getElementById('statement');
-    text.innerHTML = `player one's turn`
+    text.innerHTML = `Player one's turn`
 
     square4 = document.getElementById('t4');
     square4.innerHTML = `🔵`
@@ -141,14 +141,14 @@ const selecting5 = () => {
   btn5.remove()
   if (turn = i%2 === 0) {
     const text = document.getElementById('statement');
-    text.innerHTML = `player two's turn`
+    text.innerHTML = `Player two's turn`
 
     square5 = document.getElementById('t5');
     square5.innerHTML = `❌`
     i++
   } else {
     const text = document.getElementById('statement');
-    text.innerHTML = `player one's turn`
+    text.innerHTML = `Player one's turn`
 
     square5 = document.getElementById('t5');
     square5.innerHTML = `🔵`
@@ -161,14 +161,14 @@ const selecting6 = () => {
   btn6.remove()
   if (turn = i%2 === 0) {
     const text = document.getElementById('statement');
-    text.innerHTML = `player two's turn`
+    text.innerHTML = `Player two's turn`
 
     square6 = document.getElementById('t6');
     square6.innerHTML = `❌`
     i++
   } else {
     const text = document.getElementById('statement');
-    text.innerHTML = `player one's turn`
+    text.innerHTML = `Player one's turn`
 
     square6 = document.getElementById('t6');
     square6.innerHTML = `🔵`
@@ -181,14 +181,14 @@ const selecting7 = () => {
   btn7.remove()
   if (turn = i%2 === 0) {
     const text = document.getElementById('statement');
-    text.innerHTML = `player two's turn`
+    text.innerHTML = `Player two's turn`
 
     square7 = document.getElementById('t7');
     square7.innerHTML = `❌`
     i++
   } else {
     const text = document.getElementById('statement');
-    text.innerHTML = `player one's turn`
+    text.innerHTML = `Player one's turn`
 
     square7 = document.getElementById('t7');
     square7.innerHTML = `🔵`
@@ -201,14 +201,14 @@ const selecting8 = () => {
   btn8.remove()
   if (turn = i%2 === 0) {
     const text = document.getElementById('statement');
-    text.innerHTML = `player two's turn`
+    text.innerHTML = `Player two's turn`
 
     square8 = document.getElementById('t8');
     square8.innerHTML = `❌`
     i++
   } else {
     const text = document.getElementById('statement');
-    text.innerHTML = `player one's turn`
+    text.innerHTML = `Player one's turn`
 
     square8 = document.getElementById('t8');
     square8.innerHTML = `🔵`
@@ -221,14 +221,14 @@ const selecting9 = () => {
   btn9.remove()
   if (turn = i%2 === 0) {
     const text = document.getElementById('statement');
-    text.innerHTML = `player two's turn`
+    text.innerHTML = `Player two's turn`
 
     square9 = document.getElementById('t9');
     square9.innerHTML = `❌`
     i++
   } else {
     const text = document.getElementById('statement');
-    text.innerHTML = `player one's turn`
+    text.innerHTML = `Player one's turn`
 
     square9 = document.getElementById('t9');
     square9.innerHTML = `🔵`
@@ -260,18 +260,33 @@ const startGame = () => {
 
 
 //---------------------- Wins Game ---------------------------------
-square1 = document.getElementById('t1');
-square2 = document.getElementById('t2');
-square3 = document.getElementById('t3');
-square4 = document.getElementById('t4');
-square5 = document.getElementById('t5');
-square6 = document.getElementById('t6');
-square7 = document.getElementById('t7');
-square8 = document.getElementById('t8');
-square9 = document.getElementById('t9');
-
-if (square1.innerHTML === '❌' && square2.innerHTML === '❌' && square3.innerHTML === '❌') {
-  console.log('Player One Wins');
-} else {
-  console.log('No winner');
-}
+// square1 = document.getElementById('t1');
+// square2 = document.getElementById('t2');
+// square3 = document.getElementById('t3');
+// square4 = document.getElementById('t4');
+// square5 = document.getElementById('t5');
+// square6 = document.getElementById('t6');
+// square7 = document.getElementById('t7');
+// square8 = document.getElementById('t8');
+// square9 = document.getElementById('t9');
+//
+// // if (square1.innerHTML === '❌' && square2.innerHTML === '❌' && square3.innerHTML === '❌') {
+// //   console.log('Player One Wins');
+// // } else {
+// //   console.log('No winner');
+// // }
+//
+// const text =  document.getElementById('t1');
+// const s1Text = text.innerHTML;
+// console.log(s1Text);
+//
+//
+// // console.log(square1);
+// // console.log(square2);
+// // console.log(square3);
+// // console.log(square4);
+// // console.log(square5);
+// // console.log(square6);
+// // console.log(square7);
+// // console.log(square8);
+// // console.log(square9);

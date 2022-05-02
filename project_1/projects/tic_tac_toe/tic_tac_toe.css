@@ -1,22 +1,36 @@
-h1{
+body {
+  background-color: #13F2B3;
+}
+
+h1 {
   text-align: center;
   font-size: 4em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+  margin-top: 0%;
 }
 
-
-/*------------- Flexbox ---------------*/
+/*------------- Name inputs ---------------*/
 #inputs {
-  display: flex;
-  margin-left: auto;
-  width: 60%;
+  margin-left: 35%;
+  width: 100%;
   align-content: center;
+  flex-direction: row;
 }
 
-h4 {
+#p1inputDiv h4 {
   font-size: 2em;
   text-align: center;
-  margin-left: 1%;
+  display: inline;
+}
+
+#p2inputDiv {
+  visibility: hidden;
+}
+
+#p2inputDiv h4 {
+  font-size: 2em;
+  text-align: center;
+  display: inline;
 }
 
 input {
@@ -28,28 +42,59 @@ input {
   margin-left: 1em;
 }
 
-button {
+#p1Btn {
+  font-size: 1em;
+  height: 3em;
+  margin-left: 0.25em;
+  margin-top: 2.5em;
+}
+
+#p2Btn {
   font-size: 1em;
   height: 3em;
   margin-left: 0.25em;
   margin-top: 2.5em;
 }
 /*-----------------------------------------*/
+#named {
+  display: inline;
+  margin-bottom: 3%;
+}
+
+#named h5 {
+  font-size: 1.5em;
+  width: 45%;
+  margin: 0;
+  display: inline;
+  margin-left: 20%;
+}
+
 #start {
   visibility: hidden;
 }
 
-#p2inputDiv {
-  visibility: hidden;
+#startBtn {
+  font-size: 1.5em;
+  padding: 3%;
+  margin-left: 45%;
+  margin-top: 10%;
 }
 
 #gameDiv {
   visibility: hidden;
 }
 
+#statement {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  font-size: 2em;
+}
+
 table {
   margin-left: auto;
   margin-right: auto;
+  background-color: white;
 }
 
 table, th, td {
@@ -59,8 +104,11 @@ table, th, td {
 }
 
 td {
-  height: 10em;
-  width: 10em;
+  height: 2.5em;
+  width: 2.5em;
+  font-size: 4em;
+  text-align: center;
+  padding: 1%;
 }
 
 .board {
