@@ -52,220 +52,802 @@ const btn2Functions = () => {
 //----------------------------------------------//
 
 
+// //--------------------- Makes Game ---------------------------------
+// //const selection = () => {
+//   const selecting1 = () => {
+//     btn1 = document.getElementById('1');
+//     btn1.remove()
+//     //i++
+//   }
+//
+//   const selecting2 = () => {
+//     btn2 = document.getElementById('2');
+//     btn2.remove()
+//     //i++
+//   }
+//
+//   const selecting3 = () => {
+//     btn3 = document.getElementById('3');
+//     btn3.remove()
+//     //i++
+//   }
+//
+//   const selecting4 = () => {
+//     btn4 = document.getElementById('4');
+//     btn4.remove()
+//     //i++
+//   }
+//
+//   const selecting5 = () => {
+//     btn5 = document.getElementById('5');
+//     btn5.remove()
+//     //i++
+//   }
+//
+//   const selecting6 = () => {
+//     btn6 = document.getElementById('6');
+//     btn6.remove()
+//     //i++
+//   }
+//
+//   const selecting7 = () => {
+//     btn7 = document.getElementById('7');
+//     btn7.remove()
+//     //i++
+//   }
+//
+//   const selecting8 = () => {
+//     btn8 = document.getElementById('8');
+//     btn8.remove()
+//     //i++
+//   }
+//
+//   const selecting9 = () => {
+//     btn9 = document.getElementById('9');
+//     btn9.remove()
+//     //i++
+//   }
+// //}
+//
+// const statement1 = () => {
+//   const text = document.getElementById('statement');
+//   text.innerHTML = `player one's turn`
+// }
+//
+// // const p1selecting = () => {
+// //   const selecting1 = () => {
+// //     btn1 = document.getElementById('1');
+// //     btn1.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting2 = () => {
+// //     btn2 = document.getElementById('2');
+// //     btn2.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting3 = () => {
+// //     btn3 = document.getElementById('3');
+// //     btn3.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting4 = () => {
+// //     btn4 = document.getElementById('4');
+// //     btn4.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting5 = () => {
+// //     btn5 = document.getElementById('5');
+// //     btn5.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting6 = () => {
+// //     btn6 = document.getElementById('6');
+// //     btn6.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting7 = () => {
+// //     btn7 = document.getElementById('7');
+// //     btn7.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting8 = () => {
+// //     btn8 = document.getElementById('8');
+// //     btn8.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting9 = () => {
+// //     btn9 = document.getElementById('9');
+// //     btn9.remove()
+// //     i++
+// //   }
+// // }
+// //
+// const p1Turn = () => {
+//   statement1();
+//   //p1selecting();
+//   //selection();
+// }
+//
+//
+// //----
+//
+// const statement2 = () => {
+//   const text = document.getElementById('statement');
+//   text.innerHTML = `player two's turn`
+// }
+//
+// // const p2selecting = () => {
+// //   const selecting1 = () => {
+// //     btn1 = document.getElementById('1');
+// //     btn1.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting2 = () => {
+// //     btn2 = document.getElementById('2');
+// //     btn2.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting3 = () => {
+// //     btn3 = document.getElementById('3');
+// //     btn3.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting4 = () => {
+// //     btn4 = document.getElementById('4');
+// //     btn4.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting5 = () => {
+// //     btn5 = document.getElementById('5');
+// //     btn5.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting6 = () => {
+// //     btn6 = document.getElementById('6');
+// //     btn6.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting7 = () => {
+// //     btn7 = document.getElementById('7');
+// //     btn7.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting8 = () => {
+// //     btn8 = document.getElementById('8');
+// //     btn8.remove()
+// //     i++
+// //   }
+// //
+// //   const selecting9 = () => {
+// //     btn9 = document.getElementById('9');
+// //     btn9.remove()
+// //     i++
+// //   }
+// // }
+//
+//
+//
+// const p2Turn = () => {
+//   statement2();
+//   //p2selecting();
+//   //selection();
+// }
+//
+//
+// //Runs the game
+// const game = () => {
+//   for (let i = 0; i < 10; i++) {
+//     if (i%2 === 0) {
+//       p1Turn();
+//       console.log('1');
+//       i++
+//     } else {
+//       p2Turn();
+//       console.log('2');
+//       i++
+//     }
+//     console.log(i);
+//   }
+// }
+//
+//
+// //------------------------------------------------------------------
+//
+// //removes start button
+// const removestart = () => {
+//   let startbtn = document.getElementById('start')
+//   startbtn.remove();
+// }
+//
+// //makes game appear
+// const gameBoard = () => {
+//   document.getElementById('gameDiv').style.visibility = 'visible';
+// }
+//
+// //Function that starts the game
+// const startGame = () => {
+//   removestart();
+//   gameBoard();
+//   game();
+// }
+
+
+
+
 //--------------------- Makes Game ---------------------------------
 //const selection = () => {
-  const selecting1 = () => {
-    btn1 = document.getElementById('1');
-    btn1.remove()
-    //i++
-  }
-
-  const selecting2 = () => {
-    btn2 = document.getElementById('2');
-    btn2.remove()
-    //i++
-  }
-
-  const selecting3 = () => {
-    btn3 = document.getElementById('3');
-    btn3.remove()
-    //i++
-  }
-
-  const selecting4 = () => {
-    btn4 = document.getElementById('4');
-    btn4.remove()
-    //i++
-  }
-
-  const selecting5 = () => {
-    btn5 = document.getElementById('5');
-    btn5.remove()
-    //i++
-  }
-
-  const selecting6 = () => {
-    btn6 = document.getElementById('6');
-    btn6.remove()
-    //i++
-  }
-
-  const selecting7 = () => {
-    btn7 = document.getElementById('7');
-    btn7.remove()
-    //i++
-  }
-
-  const selecting8 = () => {
-    btn8 = document.getElementById('8');
-    btn8.remove()
-    //i++
-  }
-
-  const selecting9 = () => {
-    btn9 = document.getElementById('9');
-    btn9.remove()
-    //i++
-  }
+  // const selecting1 = () => {
+  //   btn1 = document.getElementById('1');
+  //   btn1.remove()
+  //   //i++
+  // }
+  //
+  // const selecting2 = () => {
+  //   btn2 = document.getElementById('2');
+  //   btn2.remove()
+  //   //i++
+  // }
+  //
+  // const selecting3 = () => {
+  //   btn3 = document.getElementById('3');
+  //   btn3.remove()
+  //   //i++
+  // }
+  //
+  // const selecting4 = () => {
+  //   btn4 = document.getElementById('4');
+  //   btn4.remove()
+  //   //i++
+  // }
+  //
+  // const selecting5 = () => {
+  //   btn5 = document.getElementById('5');
+  //   btn5.remove()
+  //   //i++
+  // }
+  //
+  // const selecting6 = () => {
+  //   btn6 = document.getElementById('6');
+  //   btn6.remove()
+  //   //i++
+  // }
+  //
+  // const selecting7 = () => {
+  //   btn7 = document.getElementById('7');
+  //   btn7.remove()
+  //   //i++
+  // }
+  //
+  // const selecting8 = () => {
+  //   btn8 = document.getElementById('8');
+  //   btn8.remove()
+  //   //i++
+  // }
+  //
+  // const selecting9 = () => {
+  //   btn9 = document.getElementById('9');
+  //   btn9.remove()
+  //   //i++
+  // }
 //}
 
-const statement1 = () => {
-  const text = document.getElementById('statement');
-  text.innerHTML = `player one's turn`
-}
 
-// const p1selecting = () => {
-//   const selecting1 = () => {
-//     btn1 = document.getElementById('1');
-//     btn1.remove()
+
+// //--------------------DO NOT CHANGE ABOVE LINE --------------
+// const game = () => {
+//   console.log('Game Function');
+//   while (i < 10) {
+//     console.log('While Loop');
+//     if (i%2 === 0) {
+//       p1Turn();
+//       console.log('Player 1 seciton');
+//     } else {
+//       p2Turn();
+//       console.log('Player two section');
+//     }
+//     console.log(`value of i: ${i}`);
+//   }
+// }
+//
+//
+//
+// const selecting1 = () => {
+//   btn1 = document.getElementById('1');
+//   btn1.remove()
+//   if (turn = i%2 === 0) {
+//     square1 = document.getElementById('t1');
+//     square1.innerHTML = `❌`
+//     i++
+//   } else {
+//     square1 = document.getElementById('t1');
+//     square1.innerHTML = `🔵`
 //     i++
 //   }
 //
-//   const selecting2 = () => {
-//     btn2 = document.getElementById('2');
-//     btn2.remove()
-//     i++
-//   }
+// }
 //
-//   const selecting3 = () => {
-//     btn3 = document.getElementById('3');
-//     btn3.remove()
+// const selecting2 = () => {
+//   btn2 = document.getElementById('2');
+//   btn2.remove()
+//   if (turn = i%2 === 0) {
+//     square2 = document.getElementById('t2');
+//     square2.innerHTML = `❌`
 //     i++
-//   }
-//
-//   const selecting4 = () => {
-//     btn4 = document.getElementById('4');
-//     btn4.remove()
-//     i++
-//   }
-//
-//   const selecting5 = () => {
-//     btn5 = document.getElementById('5');
-//     btn5.remove()
-//     i++
-//   }
-//
-//   const selecting6 = () => {
-//     btn6 = document.getElementById('6');
-//     btn6.remove()
-//     i++
-//   }
-//
-//   const selecting7 = () => {
-//     btn7 = document.getElementById('7');
-//     btn7.remove()
-//     i++
-//   }
-//
-//   const selecting8 = () => {
-//     btn8 = document.getElementById('8');
-//     btn8.remove()
-//     i++
-//   }
-//
-//   const selecting9 = () => {
-//     btn9 = document.getElementById('9');
-//     btn9.remove()
+//   } else {
+//     square2 = document.getElementById('t2');
+//     square2.innerHTML = `🔵`
 //     i++
 //   }
 // }
 //
+// const selecting3 = () => {
+//   btn3 = document.getElementById('3');
+//   btn3.remove()
+//   if (turn = i%2 === 0) {
+//     square3 = document.getElementById('t3');
+//     square3.innerHTML = `❌`
+//     i++
+//   } else {
+//     square3 = document.getElementById('t3');
+//     square3.innerHTML = `🔵`
+//     i++
+//   }
+// }
+//
+// const selecting4 = () => {
+//   btn4 = document.getElementById('4');
+//   btn4.remove()
+//   if (turn = i%2 === 0) {
+//     square4 = document.getElementById('t4');
+//     square4.innerHTML = `❌`
+//     i++
+//   } else {
+//     square4 = document.getElementById('t4');
+//     square4.innerHTML = `🔵`
+//     i++
+//   }
+// }
+//
+// const selecting5 = () => {
+//   btn5 = document.getElementById('5');
+//   btn5.remove()
+//   if (turn = i%2 === 0) {
+//     square5 = document.getElementById('t5');
+//     square5.innerHTML = `❌`
+//     i++
+//   } else {
+//     square5 = document.getElementById('t5');
+//     square5.innerHTML = `🔵`
+//     i++
+//   }
+// }
+//
+// const selecting6 = () => {
+//   btn6 = document.getElementById('6');
+//   btn6.remove()
+//   if (turn = i%2 === 0) {
+//     square6 = document.getElementById('t6');
+//     square6.innerHTML = `❌`
+//     i++
+//   } else {
+//     square6 = document.getElementById('t6');
+//     square6.innerHTML = `🔵`
+//     i++
+//   }
+// }
+//
+// const selecting7 = () => {
+//   btn7 = document.getElementById('7');
+//   btn7.remove()
+//   if (turn = i%2 === 0) {
+//     square7 = document.getElementById('t7');
+//     square7.innerHTML = `❌`
+//     i++
+//   } else {
+//     square7 = document.getElementById('t7');
+//     square7.innerHTML = `🔵`
+//     i++
+//   }
+// }
+//
+// const selecting8 = () => {
+//   btn8 = document.getElementById('8');
+//   btn8.remove()
+//   if (turn = i%2 === 0) {
+//     square8 = document.getElementById('t8');
+//     square8.innerHTML = `❌`
+//     i++
+//   } else {
+//     square8 = document.getElementById('t8');
+//     square8.innerHTML = `🔵`
+//     i++
+//   }
+// }
+//
+// const selecting9 = () => {
+//   btn9 = document.getElementById('9');
+//   btn9.remove()
+//   if (turn = i%2 === 0) {
+//     square9 = document.getElementById('t9');
+//     square9.innerHTML = `❌`
+//     i++
+//   } else {
+//     square9 = document.getElementById('t9');
+//     square9.innerHTML = `🔵`
+//     i++
+//   }
+// }
+//
+//
+//
+//
+// const statement1 = () => {
+//   const text = document.getElementById('statement');
+//   text.innerHTML = `player one's turn`
+// }
+//
+// const p1Turn = () => {
+//   statement1();
+//   console.log('statement 1');
+//   //p1selecting();
+// }
+//
+// // const p1selecting = () => {
+// //   const selecting1 = () => {
+// //     btn1 = document.getElementById('1');
+// //     btn1.innerHTML = `❌`
+// //     i++
+// //   }
+// //
+// //   const selecting2 = () => {
+// //     btn2 = document.getElementById('2');
+// //     btn2.innerHTML = `❌`
+// //     i++
+// //   }
+// //
+// //   const selecting3 = () => {
+// //     btn3 = document.getElementById('3');
+// //     btn3.innerHTML = `❌`
+// //     i++
+// //   }
+// //
+// //   const selecting4 = () => {
+// //     btn4 = document.getElementById('4');
+// //     btn4.innerHTML = `❌`
+// //     i++
+// //   }
+// //
+// //   const selecting5 = () => {
+// //     btn5 = document.getElementById('5');
+// //     btn5.innerHTML = `❌`
+// //     i++
+// //   }
+// //
+// //   const selecting6 = () => {
+// //     btn6 = document.getElementById('6');
+// //     btn6.innerHTML = `❌`
+// //     i++
+// //   }
+// //
+// //   const selecting7 = () => {
+// //     btn7 = document.getElementById('7');
+// //     btn7.innerHTML = `❌`
+// //     i++
+// //   }
+// //
+// //   const selecting8 = () => {
+// //     btn8 = document.getElementById('8');
+// //     btn8.innerHTML = `❌`
+// //     i++
+// //   }
+// //
+// //   const selecting9 = () => {
+// //     btn9 = document.getElementById('9');
+// //     btn9.innerHTML = `❌`
+// //     i++
+// //   }
+// // }
+//
+// //----
+//
+// const statement2 = () => {
+//   const text = document.getElementById('statement');
+//   text.innerHTML = `player two's turn`
+// }
+//
+// const p2Turn = () => {
+//   statement2();
+//   console.log('statement 2');
+//   //p2selecting();
+// }
+//
+// // const p2selecting = () => {
+// //   const selecting1 = () => {
+// //     btn1 = document.getElementById('1');
+// //     btn1.innerHTML = `🔵`
+// //     i++
+// //   }
+// //
+// //   const selecting2 = () => {
+// //     btn2 = document.getElementById('2');
+// //     btn2.innerHTML = `🔵`
+// //     i++
+// //   }
+// //
+// //   const selecting3 = () => {
+// //     btn3 = document.getElementById('3');
+// //     btn3.innerHTML = `🔵`
+// //     i++
+// //   }
+// //
+// //   const selecting4 = () => {
+// //     btn4 = document.getElementById('4');
+// //     btn4.innerHTML = `🔵`
+// //     i++
+// //   }
+// //
+// //   const selecting5 = () => {
+// //     btn5 = document.getElementById('5');
+// //     btn5.innerHTML = `🔵`
+// //     i++
+// //   }
+// //
+// //   const selecting6 = () => {
+// //     btn6 = document.getElementById('6');
+// //     btn6.innerHTML = `🔵`
+// //     i++
+// //   }
+// //
+// //   const selecting7 = () => {
+// //     btn7 = document.getElementById('7');
+// //     btn7.innerHTML = `🔵`
+// //     i++
+// //   }
+// //
+// //   const selecting8 = () => {
+// //     btn8 = document.getElementById('8');
+// //     btn8.innerHTML = `🔵`
+// //     i++
+// //   }
+// //
+// //   const selecting9 = () => {
+// //     btn9 = document.getElementById('9');
+// //     btn9.innerHTML = `🔵`
+// //     i++
+// //   }
+// // }
+//
+//
+// // //Runs the game
+// // const game = () => {
+// //   console.log('Game Function');
+// //   for (let i = 0; i < 10; i++) {
+// //     console.log('For Loop');
+// //     if (i%2 === 0) {
+// //       p1Turn();
+// //       console.log('Player 1 seciton');
+// //     } else {
+// //       p2Turn();
+// //       console.log('Player two section');
+// //     }
+// //     console.log(`value of i: ${i}`);
+// //   }
+// // }
+//
+//
+// //------------------------------------------------------------------
+//
+// //removes start button
+// const removestart = () => {
+//   let startbtn = document.getElementById('start')
+//   startbtn.remove();
+// }
+//
+// //makes game appear
+// const gameBoard = () => {
+//   document.getElementById('gameDiv').style.visibility = 'visible';
+// }
+//
+// //Function that starts the game
+// const startGame = () => {
+//   removestart();
+//   gameBoard();
+//   game();
+// }
+
+
+
+
+
+
+
+
+
+//--------------------DO NOT CHANGE ABOVE LINE --------------
+const game = () => {
+  console.log('Game Function');
+  while (i < 10) {
+    console.log('While Loop');
+    if (i%2 === 0) {
+      p1Turn();
+      console.log('Player 1 seciton');
+    } else {
+      p2Turn();
+      console.log('Player two section');
+    }
+    console.log(`value of i: ${i}`);
+  }
+}
+
+const statements = [
+  {
+    statment: 'player 1',
+    function: statement1 = () => {
+      const text = document.getElementById('statement');
+      text.innerHTML = `player one's turn`
+    }
+  },
+  {
+    statment: 'player 2',
+    function: statement2 = () => {
+      const text = document.getElementById('statement');
+      text.innerHTML = `player two's turn`
+    }
+  },
+]
+
 const p1Turn = () => {
-  statement1();
-  //p1selecting();
-  //selection();
+  statements[0]
+  console.log('statement 1');
 }
-
-
-//----
-
-const statement2 = () => {
-  const text = document.getElementById('statement');
-  text.innerHTML = `player two's turn`
-}
-
-// const p2selecting = () => {
-//   const selecting1 = () => {
-//     btn1 = document.getElementById('1');
-//     btn1.remove()
-//     i++
-//   }
-//
-//   const selecting2 = () => {
-//     btn2 = document.getElementById('2');
-//     btn2.remove()
-//     i++
-//   }
-//
-//   const selecting3 = () => {
-//     btn3 = document.getElementById('3');
-//     btn3.remove()
-//     i++
-//   }
-//
-//   const selecting4 = () => {
-//     btn4 = document.getElementById('4');
-//     btn4.remove()
-//     i++
-//   }
-//
-//   const selecting5 = () => {
-//     btn5 = document.getElementById('5');
-//     btn5.remove()
-//     i++
-//   }
-//
-//   const selecting6 = () => {
-//     btn6 = document.getElementById('6');
-//     btn6.remove()
-//     i++
-//   }
-//
-//   const selecting7 = () => {
-//     btn7 = document.getElementById('7');
-//     btn7.remove()
-//     i++
-//   }
-//
-//   const selecting8 = () => {
-//     btn8 = document.getElementById('8');
-//     btn8.remove()
-//     i++
-//   }
-//
-//   const selecting9 = () => {
-//     btn9 = document.getElementById('9');
-//     btn9.remove()
-//     i++
-//   }
-// }
-
-
 
 const p2Turn = () => {
   statement2();
-  //p2selecting();
-  //selection();
+  console.log('statement 2');
 }
 
 
-//Runs the game
-const game = () => {
-  for (let i = 0; i < 10; i++) {
-    if (i%2 === 0) {
-      p1Turn();
-      console.log('1');
-      i++
-    } else {
-      p2Turn();
-      console.log('2');
-      i++
-    }
-    console.log(i);
+const selecting1 = () => {
+  btn1 = document.getElementById('1');
+  btn1.remove()
+  if (turn = i%2 === 0) {
+    square1 = document.getElementById('t1');
+    square1.innerHTML = `❌`
+    i++
+  } else {
+    square1 = document.getElementById('t1');
+    square1.innerHTML = `🔵`
+    i++
+  }
+
+}
+
+const selecting2 = () => {
+  btn2 = document.getElementById('2');
+  btn2.remove()
+  if (turn = i%2 === 0) {
+    square2 = document.getElementById('t2');
+    square2.innerHTML = `❌`
+    i++
+  } else {
+    square2 = document.getElementById('t2');
+    square2.innerHTML = `🔵`
+    i++
   }
 }
 
+const selecting3 = () => {
+  btn3 = document.getElementById('3');
+  btn3.remove()
+  if (turn = i%2 === 0) {
+    square3 = document.getElementById('t3');
+    square3.innerHTML = `❌`
+    i++
+  } else {
+    square3 = document.getElementById('t3');
+    square3.innerHTML = `🔵`
+    i++
+  }
+}
 
+const selecting4 = () => {
+  btn4 = document.getElementById('4');
+  btn4.remove()
+  if (turn = i%2 === 0) {
+    square4 = document.getElementById('t4');
+    square4.innerHTML = `❌`
+    i++
+  } else {
+    square4 = document.getElementById('t4');
+    square4.innerHTML = `🔵`
+    i++
+  }
+}
+
+const selecting5 = () => {
+  btn5 = document.getElementById('5');
+  btn5.remove()
+  if (turn = i%2 === 0) {
+    square5 = document.getElementById('t5');
+    square5.innerHTML = `❌`
+    i++
+  } else {
+    square5 = document.getElementById('t5');
+    square5.innerHTML = `🔵`
+    i++
+  }
+}
+
+const selecting6 = () => {
+  btn6 = document.getElementById('6');
+  btn6.remove()
+  if (turn = i%2 === 0) {
+    square6 = document.getElementById('t6');
+    square6.innerHTML = `❌`
+    i++
+  } else {
+    square6 = document.getElementById('t6');
+    square6.innerHTML = `🔵`
+    i++
+  }
+}
+
+const selecting7 = () => {
+  btn7 = document.getElementById('7');
+  btn7.remove()
+  if (turn = i%2 === 0) {
+    square7 = document.getElementById('t7');
+    square7.innerHTML = `❌`
+    i++
+  } else {
+    square7 = document.getElementById('t7');
+    square7.innerHTML = `🔵`
+    i++
+  }
+}
+
+const selecting8 = () => {
+  btn8 = document.getElementById('8');
+  btn8.remove()
+  if (turn = i%2 === 0) {
+    square8 = document.getElementById('t8');
+    square8.innerHTML = `❌`
+    i++
+  } else {
+    square8 = document.getElementById('t8');
+    square8.innerHTML = `🔵`
+    i++
+  }
+}
+
+const selecting9 = () => {
+  btn9 = document.getElementById('9');
+  btn9.remove()
+  if (turn = i%2 === 0) {
+    square9 = document.getElementById('t9');
+    square9.innerHTML = `❌`
+    i++
+  } else {
+    square9 = document.getElementById('t9');
+    square9.innerHTML = `🔵`
+    i++
+  }
+}
 //------------------------------------------------------------------
 
 //removes start button
@@ -285,6 +867,10 @@ const startGame = () => {
   gameBoard();
   game();
 }
+
+
+
+
 
 
 

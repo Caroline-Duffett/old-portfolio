@@ -14,12 +14,12 @@
     <h5 id='p2'></h5>
     <div id='inputs'>
       <div id=p1inputDiv>
-        <h4 id='text1'>Player 1: </h4>
+        <h4 id='text1'>Player One ❌: </h4>
         <input type='Name' id="name1" placeholder='Name'>
         <button onclick='btn1Functions()' id='p1Btn'>Enter</button>
       </div>
       <div id=p2inputDiv>
-        <h4 id='text2'>Player 2: </h4>
+        <h4 id='text2'>Player Two 🔵: </h4>
         <input type='Name' id="name2" placeholder='Name'>
         <button onclick='btn2Functions()' id='p2Btn'>Enter</button>
       </div>
@@ -33,19 +33,37 @@
       </div>
       <table>
         <tr>
-          <td><button onclick='selecting1()' class=board id='1'></button></td>
-          <td><button onclick='selecting2()' class=board id='2'></button></td>
-          <td><button onclick='selecting3()' class=board id='3'></button></td>
+          <td id='t1'>""
+            <button onclick='selecting1()' class=board id='1'></button>
+          </td>
+          <td id='t2'>""
+            <button onclick='selecting2()' class=board id='2'></button>
+          </td>
+          <td id='t3'>""
+            <button onclick='selecting3()' class=board id='3'></button>
+          </td>
         </tr>
         <tr>
-          <td><button onclick='selecting4()' class=board id='4'></button></td>
-          <td><button onclick='selecting5()' class=board id='5'></button></td>
-          <td><button onclick='selecting6()' class=board id='6'></button></td>
+          <td id='t4'>""
+            <button onclick='selecting4()' class=board id='4'></button>
+          </td>
+          <td id='t5'>""
+            <button onclick='selecting5()' class=board id='5'></button>
+          </td>
+          <td id='t6'>""
+            <button onclick='selecting6()' class=board id='6'></button>
+          </td>
         </tr>
         <tr>
-          <td><button onclick='selecting7()' class=board id='7'></button></td>
-          <td><button onclick='selecting8()' class=board id='8'></button></td>
-          <td><button onclick='selecting9()' class=board id='9'></button></td>
+          <td id='t7'>""
+            <button onclick='selecting7()' class=board id='7'></button>
+          </td>
+          <td id='t8'>""
+            <button onclick='selecting8()' class=board id='8'></button>
+          </td>
+          <td id='t9'>""
+            <button onclick='selecting9()' class=board id='9'></button>
+          </td>
         </tr>
       </table>
     </div>
