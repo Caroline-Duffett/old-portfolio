@@ -83,6 +83,13 @@ body {
   border-radius: 20px;
 }
 
+#tttLogo {
+  width: 50%;
+  height: 60%;
+  margin-left: 24%;
+}
+/*Where I got the tic tac toe image: https://towardsdatascience.com/getting-started-to-reinforcement-learning-tic-tac-toe-f1d32d53acb4*/
+
 .project h4 {
   text-align: center;
   font-size: 1.2em;

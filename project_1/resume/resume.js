@@ -125,6 +125,7 @@ function responsive($minWidth) {
     }
 
     $($reasumeheader).on('click', animate)
+    //This helped me learn about the slideDown method: https://www.w3schools.com/jquery/jquery_slide.asp
 
 
 
@@ -256,7 +257,7 @@ function responsive($minWidth) {
     }
 
     $($reasumeheader).on('click', animate)
-
+    //This helped me learn about the slideDown method: https://www.w3schools.com/jquery/jquery_slide.asp
 
 
     //Window Alert
@@ -275,6 +276,4 @@ function responsive($minWidth) {
 const $minWidth = window.matchMedia('(min-width: 900px)')
 responsive($minWidth)
 $minWidth.addListener(responsive)
-
-
 });
