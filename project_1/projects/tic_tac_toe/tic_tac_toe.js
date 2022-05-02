@@ -53,61 +53,61 @@ const btn2Functions = () => {
 
 
 //--------------------- Makes Game ---------------------------------
-const selection = () => {
+//const selection = () => {
   const selecting1 = () => {
     btn1 = document.getElementById('1');
     btn1.remove()
-    i++
+    //i++
   }
 
   const selecting2 = () => {
     btn2 = document.getElementById('2');
     btn2.remove()
-    i++
+    //i++
   }
 
   const selecting3 = () => {
     btn3 = document.getElementById('3');
     btn3.remove()
-    i++
+    //i++
   }
 
   const selecting4 = () => {
     btn4 = document.getElementById('4');
     btn4.remove()
-    i++
+    //i++
   }
 
   const selecting5 = () => {
     btn5 = document.getElementById('5');
     btn5.remove()
-    i++
+    //i++
   }
 
   const selecting6 = () => {
     btn6 = document.getElementById('6');
     btn6.remove()
-    i++
+    //i++
   }
 
   const selecting7 = () => {
     btn7 = document.getElementById('7');
     btn7.remove()
-    i++
+    //i++
   }
 
   const selecting8 = () => {
     btn8 = document.getElementById('8');
     btn8.remove()
-    i++
+    //i++
   }
 
   const selecting9 = () => {
     btn9 = document.getElementById('9');
     btn9.remove()
-    i++
+    //i++
   }
-}
+//}
 
 const statement1 = () => {
   const text = document.getElementById('statement');
@@ -170,10 +170,11 @@ const statement1 = () => {
 //   }
 // }
 //
-// const p1Turn = () => {
-//   statement1();
-//   p1selecting();
-// }
+const p1Turn = () => {
+  statement1();
+  //p1selecting();
+  //selection();
+}
 
 
 //----
@@ -243,19 +244,22 @@ const statement2 = () => {
 
 const p2Turn = () => {
   statement2();
-  p2selecting();
+  //p2selecting();
+  //selection();
 }
 
 
 //Runs the game
 const game = () => {
-  for (let i = 0; 0 < 10; i++) {
+  for (let i = 0; i < 10; i++) {
     if (i%2 === 0) {
       p1Turn();
       console.log('1');
+      i++
     } else {
       p2Turn();
       console.log('2');
+      i++
     }
     console.log(i);
   }
