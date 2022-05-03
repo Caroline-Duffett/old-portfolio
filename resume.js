@@ -25,11 +25,11 @@ function responsive($minWidth) {
     const $liprojects = $('<li>').addClass('li') //projects li
     const $lilinks = $('<li>').addClass('li') //links li
 
-    const $ahome = $('<a>').attr('href', '../home/index.html').text('Home').addClass('a').attr('id', '1') //Home a
-    const $abio = $('<a>').attr('href', '../bio/bio_page.html').text('Bio').addClass('a').attr('id', '2') //Bio a
+    const $ahome = $('<a>').attr('href', './index.html').text('Home').addClass('a').attr('id', '1') //Home a
+    const $abio = $('<a>').attr('href', './bio_page.html').text('Bio').addClass('a').attr('id', '2') //Bio a
     const $aresume = $('<a>').attr('href', 'resume_page.html').text('Resume').addClass('a').attr('id', '3') //Resume
-    const $aprojects = $('<a>').attr('href', '../projects/projects_page.html').text('Project').addClass('a').attr('id', '4') //Projects a
-    const $alinks = $('<a>').attr('href', '../links/links_page.html').text('Links').addClass('a').attr('id', '5') //Links a
+    const $aprojects = $('<a>').attr('href', './projects_page.html').text('Project').addClass('a').attr('id', '4') //Projects a
+    const $alinks = $('<a>').attr('href', './links_page.html').text('Links').addClass('a').attr('id', '5') //Links a
 
     const $hoverFunction1 = () => {
       $('#1').css('font-weight', 'bold')
@@ -156,11 +156,11 @@ function responsive($minWidth) {
     const $liprojects = $('<li>').addClass('li') //projects li
     const $lilinks = $('<li>').addClass('li') //links li
 
-    const $ahome = $('<a>').attr('href', '../home/index.html').text('Home').addClass('a').attr('id', '1') //Home a
-    const $abio = $('<a>').attr('href', '../bio/bio_page.html').text('Bio').addClass('a').attr('id', '2') //Bio a
+    const $ahome = $('<a>').attr('href', './index.html').text('Home').addClass('a').attr('id', '1') //Home a
+    const $abio = $('<a>').attr('href', './bio_page.html').text('Bio').addClass('a').attr('id', '2') //Bio a
     const $aresume = $('<a>').attr('href', 'resume_page.html').text('Resume').addClass('a').attr('id', '3') //Resume
-    const $aprojects = $('<a>').attr('href', '../projects/projects_page.html').text('Project').addClass('a').attr('id', '4') //Projects a
-    const $alinks = $('<a>').attr('href', '../links/links_page.html').text('Links').addClass('a').attr('id', '5') //Links a
+    const $aprojects = $('<a>').attr('href', './projects_page.html').text('Project').addClass('a').attr('id', '4') //Projects a
+    const $alinks = $('<a>').attr('href', './links_page.html').text('Links').addClass('a').attr('id', '5') //Links a
 
     const $hoverFunction1 = () => {
       $('#1').css('font-weight', 'bold')
