@@ -25,7 +25,7 @@ function responsive($minWidth) {
     const $liprojects = $('<li>').addClass('li') //projects li
     const $lilinks = $('<li>').addClass('li') //links li
 
-    const $ahome = $('<a>').attr('href', '../home/home_page.html').text('Home').addClass('a').attr('id', '1') //Home a
+    const $ahome = $('<a>').attr('href', '../home/index.html').text('Home').addClass('a').attr('id', '1') //Home a
     const $abio = $('<a>').attr('href', '../bio/bio_page.html').text('Bio').addClass('a').attr('id', '2') //Bio a
     const $aresume = $('<a>').attr('href', 'resume_page.html').text('Resume').addClass('a').attr('id', '3') //Resume
     const $aprojects = $('<a>').attr('href', '../projects/projects_page.html').text('Project').addClass('a').attr('id', '4') //Projects a
@@ -156,7 +156,7 @@ function responsive($minWidth) {
     const $liprojects = $('<li>').addClass('li') //projects li
     const $lilinks = $('<li>').addClass('li') //links li
 
-    const $ahome = $('<a>').attr('href', '../home/home_page.html').text('Home').addClass('a').attr('id', '1') //Home a
+    const $ahome = $('<a>').attr('href', '../home/index.html').text('Home').addClass('a').attr('id', '1') //Home a
     const $abio = $('<a>').attr('href', '../bio/bio_page.html').text('Bio').addClass('a').attr('id', '2') //Bio a
     const $aresume = $('<a>').attr('href', 'resume_page.html').text('Resume').addClass('a').attr('id', '3') //Resume
     const $aprojects = $('<a>').attr('href', '../projects/projects_page.html').text('Project').addClass('a').attr('id', '4') //Projects a
