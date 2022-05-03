@@ -578,7 +578,7 @@ body {
       border-color: grey;
     }
 
-    /*This helped me figure out the borders: https://www.w3schools.com/css/css_border_rounded.asp*/
+    /*This helped me figure out the borders for modal: https://www.w3schools.com/css/css_border_rounded.asp */
 
     h2 {
       margin-bottom: 20%;

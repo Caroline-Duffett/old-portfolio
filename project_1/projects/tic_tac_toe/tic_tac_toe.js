@@ -257,3 +257,6 @@ const startGame = () => {
   gameBoard();
 }
 //------------------------------------------------------------------
+
+
+//This site helped me figure out DOM manipulation methods for JavaScript: https://www.w3schools.com/jsref/dom_obj_document.asp
