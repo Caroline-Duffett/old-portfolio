@@ -46,7 +46,7 @@ body {
   background-attachment: fixed;
 }
 
-/*Where I got yhe background image: https://wallpaperaccess.com/black-and-white-flowers-desktop*/
+/*Where I got the background image: https://wallpaperaccess.com/black-and-white-flowers-desktop*/
 /*This helped me figure out how to style the image: https://www.w3schools.com/html/html_images_background.asp*/
 
 
@@ -106,7 +106,7 @@ footer {
   }
 
   /*This helped me figure out the gradient: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient*/
-  /*Where gray came form: https://www.cssportal.com/html-colors/shades-of-gray.php*/
+  /*Where gray came from: https://www.cssportal.com/html-colors/shades-of-gray.php*/
 
   header ul {
     list-style: none;

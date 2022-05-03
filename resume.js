@@ -7,7 +7,7 @@ $(() => {
   //------------ header ---------------//
 
 
-//This site helped me figure out media querys for jquery (File Name - custom.js section): https://codingstatus.com/how-to-add-media-query-in-jquery/
+//This site helped me figure out media queries for jQuery (File Name - custom.js section): https://codingstatus.com/how-to-add-media-query-in-jquery/
 
 function responsive($minWidth) {
   if ($minWidth.matches) {
@@ -113,7 +113,7 @@ function responsive($minWidth) {
 
     $reasumeheader.css('text-align', 'center').css('font-size', '3em').css('background-color', 'white').css('color', 'blue').css('border-radius', '5px').css('margin-left', '40%').css('margin-top', '3%').css('margin-bottom', '1.5%').css('font-family', "'EB Garamond', serif").css('padding', '1%') //h1
 
-    $('body').css('background-color', '#460F75').css('height', 'auto') //.ccs('background-repeat', 'no-repeat'); //body
+    $('body').css('background-color', '#460F75').css('height', 'auto') //body
 
     $image.css('margin-left', '22.5%').css('margin-right', '22.5%').css('width', '55%').css('display', 'none') //image
     //---------------------------------//
@@ -130,7 +130,6 @@ function responsive($minWidth) {
 
 
     //Window Alert
-      //setTimeout(function() {alert('This is not my actual resume'); }, 300);
       //This helped me figure out the widow alert: https://stackoverflow.com/questions/34336976/can-i-delay-an-alert-in-jquery
 
     const windowAlert = () => {
@@ -261,7 +260,6 @@ function responsive($minWidth) {
 
 
     //Window Alert
-      //setTimeout(function() {alert('This is not my actual resume'); }, 300);
       //This helped me figure out the widow alert: https://stackoverflow.com/questions/34336976/can-i-delay-an-alert-in-jquery
 
     const windowAlert = () => {
@@ -273,7 +271,7 @@ function responsive($minWidth) {
 }
 
 //sets minWidth for function
-const $minWidth = window.matchMedia('(min-width: 900px)')
+const $minWidth = window.matchMedia('(min-width: 900px)') //Will tell if the document matches the media query or not. In  this case if the width of the window is less than 900px.
 responsive($minWidth)
 $minWidth.addListener(responsive)
 });

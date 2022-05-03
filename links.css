@@ -83,13 +83,6 @@ body {
 }
 /*How to hide scroll bars https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
 
-/*
-overflow-x {
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-*/
-
 #title {
   font-family: 'Volkhov', serif;
   width: 100%;
@@ -114,7 +107,7 @@ iframe {
   margin-right: 0;
 }
 
-/*Ended up grabbing the embed tag stright from right clicking the youtube video. This link also helped me learn how to put the live video in https://www.w3schools.com/html/html5_video.asp*/
+/*Ended up grabbing the embed tag straight from right clicking the youtube video. This link also helped me learn how to put the live video in https://www.w3schools.com/html/html5_video.asp*/
 
 #linkedinPic {
   margin-top: 5%;
@@ -218,13 +211,6 @@ iframe {
   }
   /*How to hide scroll bars https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
 
-  /*
-  overflow-y {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-  }
-  */
-
   #title {
 
     width: 100%;
@@ -295,6 +281,6 @@ iframe {
 /*Image address: https://c.pxhere.com/images/05/25/9ad3029ff9c1906b77859ee38018-1445953.jpg!d*/
 
 
-/*where I got the GitHub image: https://pxhere.com/en/photo/1445953 */
+/*where I got the Github image: https://pxhere.com/en/photo/1445953 */
 /*Image address: https://cdn.pixabay.com/photo/2014/07/15/23/36/github-394322_1280.png*/
 /*--------------------------------------------------------------------------------------------------------------- */
